@@ -1,0 +1,35 @@
+﻿                <a href="quality.html" class="nav-item nav-link">Quality</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Laser Cutting</a>
+                    <div class="dropdown-menu rounded-0 shadow-sm border-0 m-0">
+                        <a href="center-table.html" class="dropdown-item">Center Table</a>
+                        <a href="dining-table.html" class="dropdown-item">Dining Table</a>
+                        <a href="grill&partation.html" class="dropdown-item">Grills & Partation</a>
+                        <a href="cansole-table.html" class="dropdown-item">Cansole Table </a>
+                        <a href="sofa&chairs.html" class="dropdown-item">Sofa & Chairs</a>
+                        <a href="side-table.html" class="dropdown-item">Side Table</a>
+                        <a href="wall-art.html" class="dropdown-item">Wall Art & Jullas</a>
+                        <a href="mirror.html" class="dropdown-item">Mirrors & Frames</a>
+                    </div>
+                </div>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">PVD Coating</a>
+                    <div class="dropdown-menu rounded-0 shadow-sm border-0 m-0">
+                        <a href="pvd-center-table.html" class="dropdown-item">Center Table</a>
+                        <a href="pvd-dining-table.html" class="dropdown-item">Dining Table</a>
+                        <a href="pvd-grill-partation.html" class="dropdown-item">Grills & Partation</a>
+                        <a href="pvd-cansole-table.html" class="dropdown-item">Cansole Table </a>
+                        <a href="pvd-sofa-chairs.html" class="dropdown-item">Sofa & Chairs</a>
+                        <a href="pvd-side-table.html" class="dropdown-item">Side Table</a>
+                        <a href="pvd-wall-art.html" class="dropdown-item">Wall Art & Jullas</a>
+                        <a href="pvd-mirror.html" class="dropdown-item">Mirrors & Frames</a>
+                    </div>
+                </div>
+                <a href="ss-grill.html" class="nav-item nav-link">SS Grill</a>
+                <a href="ss-door.html" class="nav-item nav-link">SS Door</a>
+                <a href="ss-window.html" class="nav-item nav-link">SS Window</a>
+                <a href="ss-railings.html" class="nav-item nav-link">SS Railings</a>
+                <a href="ss-modular-kitchen.html" class="nav-item nav-link">SS Modular Kitchen</a>
+                <a href="brass-railings.html" class="nav-item nav-link">Brass Railings</a>
+                <a href="pvd-railings.html" class="nav-item nav-link">PVD Railings</a>
+                <a href="contact.html" class="nav-item nav-link">Contact Us</a>

@@ -16,6 +16,56 @@
     new WOW().init();
 
 
+    // Nested dropdown handling with longer delay
+    var submenuTimer;
+    var currentSubmenu = null;
+    
+    $('.dropdown-submenu').on('mouseenter', function() {
+        var $this = $(this);
+        var $submenu = $this.find('> .dropdown-menu');
+        
+        clearTimeout(submenuTimer);
+        
+        // Hide other submenus
+        if(currentSubmenu && currentSubmenu[0] !== $submenu[0]) {
+            currentSubmenu.hide();
+        }
+        
+        $submenu.show();
+        currentSubmenu = $submenu;
+    });
+    
+    $('.dropdown-submenu').on('mouseleave', function() {
+        var $submenu = $(this).find('> .dropdown-menu');
+        submenuTimer = setTimeout(function() {
+            $submenu.hide();
+        }, 500); // 500ms delay before hiding
+    });
+    
+    // Keep submenu open when hovering over it
+    $('.dropdown-submenu > .dropdown-menu').on('mouseenter', function() {
+        clearTimeout(submenuTimer);
+        $(this).show();
+    });
+    
+    $('.dropdown-submenu > .dropdown-menu').on('mouseleave', function() {
+        var $submenu = $(this);
+        submenuTimer = setTimeout(function() {
+            $submenu.hide();
+        }, 500);
+    });
+    
+    // Mobile click handling
+    $('.dropdown-menu .dropdown-item.dropdown-toggle').on('click', function(e) {
+        if($(window).width() < 992) {
+            e.preventDefault();
+            var $subMenu = $(this).next(".dropdown-menu");
+            $subMenu.slideToggle(200);
+            return false;
+        }
+    });
+
+
     // Navbar on scrolling
     $(window).scroll(function () {
         if ($(this).scrollTop() > 300) {

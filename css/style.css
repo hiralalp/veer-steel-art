@@ -100,6 +100,94 @@
     }
 }
 
+/*** Nested Dropdown ***/
+.dropdown-menu .dropdown-item.dropdown-toggle {
+    position: relative;
+    padding-right: 35px;
+}
+
+.dropdown-menu .dropdown-item.dropdown-toggle:after {
+    content: "›";
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu > .dropdown-menu {
+    position: absolute;
+    top: 0;
+    left: calc(100% - 2px);
+    margin: 0;
+    padding: 0;
+    display: none;
+    min-width: 200px;
+    border-radius: 0.25rem;
+}
+
+/* Keep submenu visible on hover */
+.dropdown-submenu:hover > .dropdown-menu,
+.dropdown-submenu .dropdown-menu:hover {
+    display: block;
+}
+
+.dropdown-submenu > a:hover {
+    background-color: #f8f9fa;
+    color: var(--primary);
+}
+
+/* Large invisible bridge for easy navigation */
+.dropdown-submenu:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -30px;
+    bottom: 0;
+    width: 30px;
+    z-index: 999;
+}
+
+/* Additional bridge from submenu side */
+.dropdown-submenu > .dropdown-menu:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -30px;
+    bottom: 0;
+    width: 30px;
+}
+
+@media (max-width: 991.98px) {
+    .dropdown-submenu .dropdown-menu {
+        position: static;
+        left: 0;
+        margin-left: 15px;
+        margin-top: 5px;
+        top: auto;
+    }
+    
+    .dropdown-submenu > .dropdown-menu {
+        display: none;
+    }
+    
+    .dropdown-submenu:hover > .dropdown-menu,
+    .dropdown-submenu.show > .dropdown-menu {
+        display: block;
+    }
+    
+    .dropdown-submenu:after,
+    .dropdown-submenu > .dropdown-menu:before {
+        display: none;
+    }
+}
+
 .navbar .dropdown-toggle::after {
     border: none;
     content: "\f107";
