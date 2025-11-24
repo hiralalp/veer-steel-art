@@ -148,6 +148,63 @@
         }
     });
 
+    document.addEventListener('DOMContentLoaded', function () {
+        const hoverMedia = window.matchMedia('(min-width: 992px)');
+        const hoverDropdowns = document.querySelectorAll('.dropdown-hover');
+
+        hoverDropdowns.forEach(function (dropdown) {
+            const toggle = dropdown.querySelector('[data-bs-toggle="dropdown"]');
+            if (!toggle) {
+                return;
+            }
+
+            let showTimer;
+            let hideTimer;
+
+            dropdown.addEventListener('mouseenter', function () {
+                if (!hoverMedia.matches) {
+                    return;
+                }
+                clearTimeout(hideTimer);
+                showTimer = setTimeout(function () {
+                    bootstrap.Dropdown.getOrCreateInstance(toggle).show();
+                }, 120);
+            });
+
+            dropdown.addEventListener('mouseleave', function () {
+                if (!hoverMedia.matches) {
+                    return;
+                }
+                clearTimeout(showTimer);
+                hideTimer = setTimeout(function () {
+                    bootstrap.Dropdown.getOrCreateInstance(toggle).hide();
+                }, 140);
+            });
+        });
+
+        const resetDropdowns = function () {
+            if (hoverMedia.matches) {
+                return;
+            }
+            hoverDropdowns.forEach(function (dropdown) {
+                const toggle = dropdown.querySelector('[data-bs-toggle="dropdown"]');
+                if (!toggle) {
+                    return;
+                }
+                const instance = bootstrap.Dropdown.getInstance(toggle);
+                if (instance) {
+                    instance.hide();
+                }
+            });
+        };
+
+        if (typeof hoverMedia.addEventListener === 'function') {
+            hoverMedia.addEventListener('change', resetDropdowns);
+        } else if (typeof hoverMedia.addListener === 'function') {
+            hoverMedia.addListener(resetDropdowns);
+        }
+    });
+    
     
 })(jQuery);
 
