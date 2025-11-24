@@ -1,8 +1,8 @@
-/********** Template CSS **********/
+﻿/********** Template CSS **********/
 :root {
-    --primary: #EAA636;
+    --primary: #EE2B47;
     --secondary: #545454;
-    --light: #FDF5EB;
+    --light: #EFECE3;
     --dark: #1E1916;
 }
 
@@ -34,7 +34,7 @@ body {
 
 .navbar .dropdown-menu .dropdown-item:hover,
 .navbar .dropdown-menu .dropdown-item:focus {
-    background-color: rgba(234, 166, 54, 0.12);
+    background-color: rgba(238, 43, 71, 0.12);
     color: var(--primary);
 }
 
@@ -184,7 +184,7 @@ body {
 }
 
 .dropdown-menu .dropdown-item.dropdown-toggle:after {
-    content: "›";
+    content: "â€º";
     position: absolute;
     right: 15px;
     top: 50%;

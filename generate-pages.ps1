@@ -1,4 +1,4 @@
-# PowerShell script to generate Ramdev product pages
+﻿# PowerShell script to generate Ramdev product pages
 
 $pages = @{
     'ramdev-doors' = @{Title='Stainless Steel Doors'; Folder='d-series'; Keyword='Doors, Security Doors'; Prefix='d'; Max=31}
@@ -79,7 +79,7 @@ $template = @'
         <div class="container py-5">
             <div class="row g-5 align-items-center">
                 <div class="col-lg-6">
-                    <h1 class="display-4 mb-3 animated slideInDown" style="color:#EAA636;">{{TITLE}}</h1>
+                    <h1 class="display-4 mb-3 animated slideInDown" style="color:#EE2B47;">{{TITLE}}</h1>
                     <nav aria-label="breadcrumb animated slideInDown">
                         <ol class="breadcrumb mb-0">
                             <li class="breadcrumb-item"><a href="index.html">Home</a></li>
@@ -244,3 +244,4 @@ foreach ($pageName in $pages.Keys) {
 }
 
 Write-Host "`nAll pages created successfully!"
+
