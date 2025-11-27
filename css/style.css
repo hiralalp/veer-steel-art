@@ -760,17 +760,7 @@ body {
 
 
 /*** Footer ***/
-@media (min-width: 992px) {
-    .footer::after {
-        position: absolute;
-        content: "";
-        width: 1px;
-        height: 100%;
-        top: 0;
-        left: 50%;
-        background: var(--secondary);
-    }
-}
+
 
 .footer-shape::before {
     position: absolute;
@@ -807,4 +797,29 @@ body {
     color: var(--primary);
     letter-spacing: 1px;
     box-shadow: none;
+}
+
+/* Masonry Grid Layout */
+.masonry-grid {
+    column-count: 1;
+    column-gap: 1.5rem;
+}
+
+.masonry-item {
+    break-inside: avoid;
+    margin-bottom: 1.5rem;
+    display: inline-block;
+    width: 100%;
+}
+
+@media (min-width: 576px) {
+    .masonry-grid {
+        column-count: 2;
+    }
+}
+
+@media (min-width: 992px) {
+    .masonry-grid {
+        column-count: 4;
+    }
 }
