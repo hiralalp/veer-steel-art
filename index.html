@@ -2,6 +2,9 @@
 <html lang="en">
 
 <head>
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
     <meta charset="utf-8">
     <title>Ramdev Steel Industries</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -14,7 +17,9 @@
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet"> 
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Playfair+Display:wght@500;600;700&display=swap"
+        rel="stylesheet">
 
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
@@ -32,7 +37,7 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
-    
+
     <!-- Custom Product Gallery Styles -->
     <style>
         .product-tabs .nav-link {
@@ -63,12 +68,12 @@
             border-radius: 10px;
             overflow: hidden;
             background: #fff;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
         }
 
         .product-item:hover {
             transform: translateY(-6px);
-            box-shadow: 0 6px 20px rgba(0,0,0,0.18);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.18);
         }
 
         .product-item .position-relative {
@@ -90,7 +95,7 @@
         .product-overlay {
             position: absolute;
             inset: 0;
-            background: rgba(0,0,0,0.45);
+            background: rgba(0, 0, 0, 0.45);
             display: flex;
             align-items: center;
             justify-content: center;
@@ -135,7 +140,7 @@
 
         .navbar .dropdown-menu .dropdown-item:hover,
         .navbar .dropdown-menu .dropdown-item:focus {
-            background-color: rgba(238,43,71, 0.12);
+            background-color: rgba(238, 43, 71, 0.12);
             color: var(--bs-primary);
         }
 
@@ -165,14 +170,16 @@
 
 <body>
     <!-- Spinner Start -->
-    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
         <div class="spinner-grow text-primary" role="status"></div>
     </div>
     <!-- Spinner End -->
 
 
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-white navbar-light fixed-top shadow py-lg-0 px-4 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
+    <nav class="navbar navbar-expand-lg bg-white navbar-light fixed-top shadow py-lg-0 px-4 px-lg-5 wow fadeIn"
+        data-wow-delay="0.1s">
         <a href="index.html" class="navbar-brand d-block d-lg-none">
             <h1 class="text-primary">Ramdev Steel Industries</h1>
         </a>
@@ -186,26 +193,27 @@
                 <a href="service.html" class="nav-item nav-link">Services</a>
             </div>
             <a href="index.html" class="navbar-brand bg-white py-2 px-4 mx-3 d-none d-lg-block" style="width: 280px;">
-               <img src="./img/Ramdev Steel Industries logo.jpg" class="img-fluid"  alt="" style=" height: 58px; margin-left: 81px;">
+                <img src="./img/Ramdev Steel Industries logo.jpg" class="img-fluid" alt=""
+                    style=" height: 58px; margin-left: 81px;">
             </a>
             <div class="navbar-nav me-auto py-0">
                 <a href="quality.html" class="nav-item nav-link">Quality</a>
-                <div class="nav-item dropdown dropdown-hover" id="productsDropdown">
+                                <div class="nav-item dropdown dropdown-hover" id="productsDropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">Products</a>
                     <div class="dropdown-menu simple-products-menu shadow-sm border-0 m-0">
-                        <a href="ramdev-accessories.html" class="dropdown-item">Steel Accessories</a>
-                        <a href="ramdev-chairs.html" class="dropdown-item">Steel Chairs &amp; Stools</a>
-                        <a href="ramdev-decorative-items.html" class="dropdown-item">Decorative Items</a>
+                        <a href="ramdev-railings.html" class="dropdown-item">Stainless Steel Railings</a>
+                        <a href="ramdev-grills.html" class="dropdown-item">Stainless Steel Grills</a>
+                        <a href="ramdev-pvd-coating.html" class="dropdown-item">PVD Coating Services</a>
                         <a href="ramdev-doors.html" class="dropdown-item">Stainless Steel Doors</a>
                         <a href="ramdev-gates.html" class="dropdown-item">Stainless Steel Gates</a>
-                        <a href="ramdev-grills.html" class="dropdown-item">Stainless Steel Grills</a>
-                        <a href="ramdev-handles.html" class="dropdown-item">Stainless Steel Handles</a>
                         <a href="ramdev-kitchen.html" class="dropdown-item">Kitchen Items</a>
+                        <a href="ramdev-chairs.html" class="dropdown-item">Steel Chairs &amp; Stools</a>
+                        <a href="ramdev-tables.html" class="dropdown-item">Steel Tables</a>
+                        <a href="ramdev-handles.html" class="dropdown-item">Stainless Steel Handles</a>
+                        <a href="ramdev-accessories.html" class="dropdown-item">Steel Accessories</a>
+                        <a href="ramdev-decorative-items.html" class="dropdown-item">Decorative Items</a>
                         <a href="ramdev-laser-cutting.html" class="dropdown-item">Laser Cutting Portfolio</a>
                         <a href="ramdev-nameplates.html" class="dropdown-item">Name Plates</a>
-                        <a href="ramdev-pvd-coating.html" class="dropdown-item">PVD Coating Services</a>
-                        <a href="ramdev-railings.html" class="dropdown-item">Stainless Steel Railings</a>
-                        <a href="ramdev-tables.html" class="dropdown-item">Steel Tables</a>
                         <div class="dropdown-divider"></div>
                         <a href="other-products.html" class="dropdown-item highlight">Other Products</a>
                     </div>
@@ -217,99 +225,119 @@
     <!-- Navbar End -->
 
 
- 
-       <!-- Carousel Start -->
-     <div class="container-fluid px-0">
-            <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true" aria-label="First slide"></li>
-                    <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
-                    <li data-bs-target="#carouselId" data-bs-slide-to="2" aria-label="Third slide"></li>
-                    <li data-bs-target="#carouselId" data-bs-slide-to="3" aria-label="Fourth slide"></li>
-                    <li data-bs-target="#carouselId" data-bs-slide-to="4" aria-label="Fifth slide"></li>
-                    <li data-bs-target="#carouselId" data-bs-slide-to="5" aria-label="Sixth slide"></li>
-                </ol>
-                <div class="carousel-inner" role="listbox">
-                    <div class="carousel-item active">
-                        <img src="img/hero-banner/banner-04.jpg" class="img-fluid" alt="Hero Banner 1">
-                        <div class="carousel-caption">
-                            <div class="container carousel-content">
-                                <h1 class="text-white display-1 mb-4 animated fadeInRight" style="font-size: 30px;">Manufacturer,Exporter & Supplier of</h1>
-                                <p class="mb-4 text-white fs-5 animated fadeInDown">Stainless Steel and Brass Grills,Railing & Bulusters</p>
-                                <a href="contact.html" class="me-2"><button type="button" class="btn btn-primary py-3 px-5">Contact Us</button></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="img/hero-banner/banner-03.jpg" class="img-fluid" alt="Hero Banner 2">
-                        <div class="carousel-caption">
-                            <div class="container carousel-content">
-                                <h1 class="text-white display-1 mb-4 animated fadeInRight" style="font-size: 30px;">Manufacturing Premium Quality Railings</h1>
-                                <a href="contact.html" class="me-2"><button type="button" class="btn btn-primary py-3 px-5">Contact Us</button></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="img/hero-banner/banner-02.jpg" class="img-fluid" alt="Hero Banner 3">
-                        <div class="carousel-caption">
-                            <div class="container carousel-content">
-                                <h1 class="text-white display-1 mb-4 animated fadeInRight" style="font-size: 30px;">Manufacturer,Exporter & Supplier of</h1>
-                                <p class="mb-4 text-white fs-5 animated fadeInDown">Stainless Steel and Brass Grills,Railing & Bulusters</p>
-                                <a href="contact.html" class="me-2"><button type="button" class="btn btn-primary py-3 px-5">Contact Us</button></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="img/hero-banner/banner-01.jpg" class="img-fluid" alt="Hero Banner 4">
-                        <div class="carousel-caption">
-                            <div class="container carousel-content">
-                                <h1 class="text-white display-1 mb-4 animated fadeInRight" style="font-size: 30px;">Welcome to Ramdev Steel Industries</h1>
-                                <h6 class="text-white h4 animated fadeInUp">Manufacturer,Exporter & Supplier of</h6>
-                                <p class="mb-4 text-white fs-5 animated fadeInDown">Stainless Steel and Brass Grills,Railing & Bulusters</p>
-                                <a href="contact.html" class="me-2"><button type="button" class="btn btn-primary py-3 px-5">Contact Us</button></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="./img/banner-main-laser.jpg" class="img-fluid" alt="First slide">
-                        <div class="carousel-caption">
-                            <div class="container carousel-content">
-                                <!-- <h6 class="text-secondary h4 animated fadeInUp">Welcome To Sawariya Industries </h6> -->
-                                <h1 class="text-white display-1 mb-4 animated fadeInRight" style="font-size: 30px;">Welcome To Ramdev Steel Industries</h1>
-                                <p class="mb-4 text-white fs-5 animated fadeInDown">Manufacturing of All Kinds of S.S. Handles, Railings, Safety Door Grill, Interior Fabrication, All Kinds Of PVD & PU Coatings</p>
-                                <a href="contact.html" class="me-2"><button type="button" class="btn btn-primary py-3 px-5">Contact Us</button></a>
-                                <!-- <a href="" class="ms-2"><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn2 animated fadeInRight">Contact Us</button></a> -->
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="img/banner-2.jpg" class="img-fluid" alt="Second slide">
-                        <div class="carousel-caption">
-                            <div class="container carousel-content">
-                                 <h1 class="text-white display-1 mb-4 animated fadeInRight" style="font-size: 30px;">High Performance Metal Fabrication Solutions</h1>
-                                <p class="mb-4 text-white fs-5 animated fadeInDown">Experts in S.S. Handles, Railings, Safety Door Grill, Interior Fabrication, PVD & PU Coatings.</p>
-                                <!-- <p class="mb-4 text-white fs-5 animated fadeInDown">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Pellentesque aliquam dolor eget urna ultricies tincidunt.</p> -->
-                                <a href="contact.html" class="me-2"><button type="button" class="btn btn-primary py-3 px-5">Contact Us</button></a>
-                                <!-- <a href="" class="ms-2"><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn2 animated fadeInRight">Contact Us</button></a> -->
-                            </div>
+
+    <!-- Carousel Start -->
+    <div class="container-fluid px-0">
+        <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true"
+                    aria-label="First slide"></li>
+                <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
+                <li data-bs-target="#carouselId" data-bs-slide-to="2" aria-label="Third slide"></li>
+                <li data-bs-target="#carouselId" data-bs-slide-to="3" aria-label="Fourth slide"></li>
+                <li data-bs-target="#carouselId" data-bs-slide-to="4" aria-label="Fifth slide"></li>
+                <li data-bs-target="#carouselId" data-bs-slide-to="5" aria-label="Sixth slide"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <img src="img/hero-banner/banner-04.jpg" class="img-fluid" alt="Hero Banner 1">
+                    <div class="carousel-caption">
+                        <div class="container carousel-content">
+                            <h1 class="text-white display-1 mb-4 animated fadeInRight" style="font-size: 30px;">
+                                Manufacturer,Exporter & Supplier of</h1>
+                            <p class="mb-4 text-white fs-5 animated fadeInDown">Stainless Steel and Brass Grills,Railing
+                                & Bulusters</p>
+                            <a href="contact.html" class="me-2"><button type="button"
+                                    class="btn btn-primary py-3 px-5">Contact Us</button></a>
                         </div>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
+                <div class="carousel-item">
+                    <img src="img/hero-banner/banner-03.jpg" class="img-fluid" alt="Hero Banner 2">
+                    <div class="carousel-caption">
+                        <div class="container carousel-content">
+                            <h1 class="text-white display-1 mb-4 animated fadeInRight" style="font-size: 30px;">
+                                Manufacturing Premium Quality Railings</h1>
+                            <a href="contact.html" class="me-2"><button type="button"
+                                    class="btn btn-primary py-3 px-5">Contact Us</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/hero-banner/banner-02.jpg" class="img-fluid" alt="Hero Banner 3">
+                    <div class="carousel-caption">
+                        <div class="container carousel-content">
+                            <h1 class="text-white display-1 mb-4 animated fadeInRight" style="font-size: 30px;">
+                                Manufacturer,Exporter & Supplier of</h1>
+                            <p class="mb-4 text-white fs-5 animated fadeInDown">Stainless Steel and Brass Grills,Railing
+                                & Bulusters</p>
+                            <a href="contact.html" class="me-2"><button type="button"
+                                    class="btn btn-primary py-3 px-5">Contact Us</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/hero-banner/banner-01.jpg" class="img-fluid" alt="Hero Banner 4">
+                    <div class="carousel-caption">
+                        <div class="container carousel-content">
+                            <h1 class="text-white display-1 mb-4 animated fadeInRight" style="font-size: 30px;">Welcome
+                                to Ramdev Steel Industries</h1>
+                            <h6 class="text-white h4 animated fadeInUp">Manufacturer,Exporter & Supplier of</h6>
+                            <p class="mb-4 text-white fs-5 animated fadeInDown">Stainless Steel and Brass Grills,Railing
+                                & Bulusters</p>
+                            <a href="contact.html" class="me-2"><button type="button"
+                                    class="btn btn-primary py-3 px-5">Contact Us</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/banner-main-laser.jpg" class="img-fluid" alt="First slide">
+                    <div class="carousel-caption">
+                        <div class="container carousel-content">
+                            <!-- <h6 class="text-secondary h4 animated fadeInUp">Welcome To Sawariya Industries </h6> -->
+                            <h1 class="text-white display-1 mb-4 animated fadeInRight" style="font-size: 30px;">Welcome
+                                To Ramdev Steel Industries</h1>
+                            <p class="mb-4 text-white fs-5 animated fadeInDown">Manufacturing of All Kinds of S.S.
+                                Handles, Railings, Safety Door Grill, Interior Fabrication, All Kinds Of PVD & PU
+                                Coatings</p>
+                            <a href="contact.html" class="me-2"><button type="button"
+                                    class="btn btn-primary py-3 px-5">Contact Us</button></a>
+                            <!-- <a href="" class="ms-2"><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn2 animated fadeInRight">Contact Us</button></a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/banner-2.jpg" class="img-fluid" alt="Second slide">
+                    <div class="carousel-caption">
+                        <div class="container carousel-content">
+                            <h1 class="text-white display-1 mb-4 animated fadeInRight" style="font-size: 30px;">High
+                                Performance Metal Fabrication Solutions</h1>
+                            <p class="mb-4 text-white fs-5 animated fadeInDown">Experts in S.S. Handles, Railings,
+                                Safety Door Grill, Interior Fabrication, PVD & PU Coatings.</p>
+                            <!-- <p class="mb-4 text-white fs-5 animated fadeInDown">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Pellentesque aliquam dolor eget urna ultricies tincidunt.</p> -->
+                            <a href="contact.html" class="me-2"><button type="button"
+                                    class="btn btn-primary py-3 px-5">Contact Us</button></a>
+                            <!-- <a href="" class="ms-2"><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn2 animated fadeInRight">Contact Us</button></a> -->
+                        </div>
+                    </div>
+                </div>
             </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
+    </div>
     <!-- Carousel End -->
 
 
     <!-- Video Modal Start -->
-    <div class="modal modal-video fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal modal-video fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content rounded-0">
                 <div class="modal-header">
@@ -319,8 +347,8 @@
                 <div class="modal-body">
                     <!-- 16:9 aspect ratio -->
                     <div class="ratio ratio-16x9">
-                        <iframe class="embed-responsive-item" src="" id="video" allowfullscreen allowscriptaccess="always"
-                            allow="autoplay"></iframe>
+                        <iframe class="embed-responsive-item" src="" id="video" allowfullscreen
+                            allowscriptaccess="always" allow="autoplay"></iframe>
                     </div>
                 </div>
             </div>
@@ -344,9 +372,17 @@
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="h-100">
                         <p class="text-primary text-uppercase mb-2">About Us</p>
-                        <h1 class="display-6 mb-4" style="font-size: 32px;">Expert Metal Fabrication & Coating You Can Trust</h1>
-                        <p style="text-align: justify;">At <strong style="color: #EE2B47;">Ramdev Steel Industries</strong>, we specialize in manufacturing all kinds of S.S. Handles, Railings, Safety Door Grill, and Interior Fabrication. We also provide all kinds of PVD & PU coatings for metal surfaces. With years of industry experience, we have built a solid reputation for delivering innovative, high-quality metalwork solutions tailored to both residential and commercial spaces.</p>
-                        <p style="text-align: justify;">We use advanced technology and expert skills to create precise and long-lasting metal designs. From railings to safety grills and interior pieces, we turn your ideas into stylish, high-quality results.</p>
+                        <h1 class="display-6 mb-4" style="font-size: 32px;">Expert Metal Fabrication & Coating You Can
+                            Trust</h1>
+                        <p style="text-align: justify;">At <strong style="color: #EE2B47;">Ramdev Steel
+                                Industries</strong>, we specialize in manufacturing all kinds of S.S. Handles, Railings,
+                            Safety Door Grill, and Interior Fabrication. We also provide all kinds of PVD & PU coatings
+                            for metal surfaces. With years of industry experience, we have built a solid reputation for
+                            delivering innovative, high-quality metalwork solutions tailored to both residential and
+                            commercial spaces.</p>
+                        <p style="text-align: justify;">We use advanced technology and expert skills to create precise
+                            and long-lasting metal designs. From railings to safety grills and interior pieces, we turn
+                            your ideas into stylish, high-quality results.</p>
                         <div class="row g-2 mb-4">
                             <div class="col-sm-6">
                                 <i class="fa fa-check text-primary me-3"></i>Quality Products
@@ -382,21 +418,24 @@
                     <div class="fact-item bg-light text-center h-100 p-5">
                         <h1 class="display-2 text-primary mb-3" data-toggle="counter-up">20</h1>
                         <h4 class="mb-3">Experts Workers</h4>
-                        <span>Our expert workers combine skill, experience, and precision to deliver high-quality fabrication and laser cutting solutions.</span>
+                        <span>Our expert workers combine skill, experience, and precision to deliver high-quality
+                            fabrication and laser cutting solutions.</span>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="fact-item bg-light text-center h-100 p-5">
                         <h1 class="display-2 text-primary mb-3" data-toggle="counter-up">10</h1>
                         <h4 class="mb-3">Years Experience</h4>
-                        <span>We have 10 years of experience delivering expert craftsmanship and high-quality laser cutting and metal fabrication.</span>
+                        <span>We have 10 years of experience delivering expert craftsmanship and high-quality laser
+                            cutting and metal fabrication.</span>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 pt-lg-5 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="fact-item bg-light text-center h-100 p-5">
                         <h1 class="display-2 text-primary mb-3" data-toggle="counter-up">12</h1>
                         <h4 class="mb-3">Running Projects</h4>
-                        <span>We are currently working on multiple projects, delivering quality laser cutting, railings, grills, and interior fabrication.</span>
+                        <span>We are currently working on multiple projects, delivering quality laser cutting, railings,
+                            grills, and interior fabrication.</span>
                     </div>
                 </div>
             </div>
@@ -406,234 +445,243 @@
 
 
     <!-- Service Start -->
-   <div class="container-xxl bg-light py-5 my-5">
-    <div class="container py-5">
-        <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-            <p class="text-primary text-uppercase mb-2">Our Products</p>
-            <h1 class="display-6 mb-4" style="font-size: 28px;">Explore Our Range of Premium Products</h1>
-        </div>
-        <div class="row g-3">
-            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                <div class="service-item d-flex flex-column bg-white p-3 pb-0 h-100">
-                    <div class="position-relative">
-                        <img class="img-fluid" src="img/ss-grills/ssgrill-2.jpg" alt="">
-                         <div class="service-overlay">
-                            <a href="ramdev-grills.html"></a>
+    <div class="container-xxl bg-light py-5 my-5">
+        <div class="container py-5">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <p class="text-primary text-uppercase mb-2">Our Products</p>
+                <h1 class="display-6 mb-4" style="font-size: 28px;">Explore Our Range of Premium Products</h1>
+            </div>
+            <div class="row g-3">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item d-flex flex-column bg-white p-3 pb-0 h-100">
+                        <div class="position-relative">
+                            <img class="img-fluid" src="img/ss-grills/ssgrill-2.jpg" alt="">
+                            <div class="service-overlay">
+                                <a href="ramdev-grills.html"></a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="text-center p-4">
-                        <h4>Stainless Steel Grills</h4>
-                         <div class="d-flex justify-content-center gap-2 flex-wrap">
-                            <a href="ramdev-grills.html" class="btn btn-primary">Learn More </a>
+                        <div class="text-center p-4">
+                            <h4>Stainless Steel Grills</h4>
+                            <div class="d-flex justify-content-center gap-2 flex-wrap">
+                                <a href="ramdev-grills.html" class="btn btn-primary">Learn More </a>
                                 <a class="btn btn-secondary d-flex align-items-center justify-content-center gap-2"
-                                href="https://wa.me/919029585033?text=Hi%20I%20am%20interested%20in%20Stainless%20Steel%20Grills"
-                                target="_blank">
-                                
-                                <span style="background-color: #25D366; color: white; border-radius: 50%; padding: 6px; display: inline-flex; align-items: center; justify-content: center;">
-                                    <i class="fab fa-whatsapp" style="font-size: 14px;"></i>
-                                </span>Get Quote
+                                    href="https://wa.me/919029585033?text=Hi%20I%20am%20interested%20in%20Stainless%20Steel%20Grills"
+                                    target="_blank">
+
+                                    <span
+                                        style="background-color: #25D366; color: white; border-radius: 50%; padding: 6px; display: inline-flex; align-items: center; justify-content: center;">
+                                        <i class="fab fa-whatsapp" style="font-size: 14px;"></i>
+                                    </span>Get Quote
                                 </a>
-                       </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-                <div class="service-item d-flex flex-column bg-white p-3 pb-0 h-100">
-                    <div class="position-relative">
-                        <img class="img-fluid" src="img/ss-railings/ssrail-8.jpg" alt="">
-                         <div class="service-overlay">
-                            <a href="ramdev-railings.html"></a>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="service-item d-flex flex-column bg-white p-3 pb-0 h-100">
+                        <div class="position-relative">
+                            <img class="img-fluid" src="img/ss-railings/ssrail-8.jpg" alt="">
+                            <div class="service-overlay">
+                                <a href="ramdev-railings.html"></a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="text-center p-4">
-                        <h4>Stainless Steel Railings</h4>
-                         <div class="d-flex justify-content-center gap-2 flex-wrap">
+                        <div class="text-center p-4">
+                            <h4>Stainless Steel Railings</h4>
+                            <div class="d-flex justify-content-center gap-2 flex-wrap">
                                 <a href="ramdev-railings.html" class="btn btn-primary">Learn More </a>
                                 <a class="btn btn-secondary d-flex align-items-center justify-content-center gap-2"
-                                href="https://wa.me/919029585033?text=Hi%20I%20am%20interested%20in%20Stainless%20Steel%20Railings"
-                                target="_blank">
-                                
-                                <span style="background-color: #25D366; color: white; border-radius: 50%; padding: 6px; display: inline-flex; align-items: center; justify-content: center;">
-                                    <i class="fab fa-whatsapp" style="font-size: 14px;"></i>
-                                </span>Get Quote
+                                    href="https://wa.me/919029585033?text=Hi%20I%20am%20interested%20in%20Stainless%20Steel%20Railings"
+                                    target="_blank">
+
+                                    <span
+                                        style="background-color: #25D366; color: white; border-radius: 50%; padding: 6px; display: inline-flex; align-items: center; justify-content: center;">
+                                        <i class="fab fa-whatsapp" style="font-size: 14px;"></i>
+                                    </span>Get Quote
                                 </a>
-                       </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                <div class="service-item d-flex flex-column bg-white p-3 pb-0 h-100">
-                    <div class="position-relative">
-                        <img class="img-fluid" src="img/partation.jpg" alt="">
-                          <div class="service-overlay">
-                            <a href="grill&partation.html"></a>
+                            </div>
                         </div>
                     </div>
-                    <div class="text-center p-4">
-                        <h4>Partition</h4>
-                       <div class="d-flex justify-content-center gap-2 flex-wrap">
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item d-flex flex-column bg-white p-3 pb-0 h-100">
+                        <div class="position-relative">
+                            <img class="img-fluid" src="img/partation.jpg" alt="">
+                            <div class="service-overlay">
+                                <a href="grill&partation.html"></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h4>Partition</h4>
+                            <div class="d-flex justify-content-center gap-2 flex-wrap">
                                 <a href="grill&partation.html" class="btn btn-primary">Learn More </a>
                                 <a class="btn btn-secondary d-flex align-items-center justify-content-center gap-2"
-                                href="https://wa.me/919029585033?text=Hi%20I%20am%20interested%20in%20Partition"
-                                target="_blank">
-                                
-                                <span style="background-color: #25D366; color: white; border-radius: 50%; padding: 6px; display: inline-flex; align-items: center; justify-content: center;">
-                                    <i class="fab fa-whatsapp" style="font-size: 14px;"></i>
-                                </span>Get Quote
+                                    href="https://wa.me/919029585033?text=Hi%20I%20am%20interested%20in%20Partition"
+                                    target="_blank">
+
+                                    <span
+                                        style="background-color: #25D366; color: white; border-radius: 50%; padding: 6px; display: inline-flex; align-items: center; justify-content: center;">
+                                        <i class="fab fa-whatsapp" style="font-size: 14px;"></i>
+                                    </span>Get Quote
                                 </a>
-                       </div>
-                    </div>
-                </div>
-            </div>
-             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
-                <div class="service-item d-flex flex-column bg-white p-3 pb-0 h-100">
-                    <div class="position-relative">
-                        <img class="img-fluid" src="img/ss-doors/ssdoor-18.jpg" alt="">
-                         <div class="service-overlay">
-                            <a href="ramdev-doors.html"></a>
+                            </div>
                         </div>
                     </div>
-                    <div class="text-center p-4">
-                        <h4>Stainless Steel Doors</h4>
-                        <div class="d-flex justify-content-center gap-2 flex-wrap">
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="service-item d-flex flex-column bg-white p-3 pb-0 h-100">
+                        <div class="position-relative">
+                            <img class="img-fluid" src="img/ss-doors/ssdoor-18.jpg" alt="">
+                            <div class="service-overlay">
+                                <a href="ramdev-doors.html"></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h4>Stainless Steel Doors</h4>
+                            <div class="d-flex justify-content-center gap-2 flex-wrap">
                                 <a href="ramdev-doors.html" class="btn btn-primary">Learn More </a>
                                 <a class="btn btn-secondary d-flex align-items-center justify-content-center gap-2"
-                                href="https://wa.me/919029585033?text=Hi%20I%20am%20interested%20in%20Stainless%20Steel%20Doors"
-                                target="_blank">
-                                
-                                <span style="background-color: #25D366; color: white; border-radius: 50%; padding: 6px; display: inline-flex; align-items: center; justify-content: center;">
-                                    <i class="fab fa-whatsapp" style="font-size: 14px;"></i>
-                                </span>Get Quote
+                                    href="https://wa.me/919029585033?text=Hi%20I%20am%20interested%20in%20Stainless%20Steel%20Doors"
+                                    target="_blank">
+
+                                    <span
+                                        style="background-color: #25D366; color: white; border-radius: 50%; padding: 6px; display: inline-flex; align-items: center; justify-content: center;">
+                                        <i class="fab fa-whatsapp" style="font-size: 14px;"></i>
+                                    </span>Get Quote
                                 </a>
-                       </div>
-                    </div>
-                </div>
-            </div>
-             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                <div class="service-item d-flex flex-column bg-white p-3 pb-0 h-100">
-                    <div class="position-relative">
-                        <img class="img-fluid" src="img/ramdev/handle/ss-handles.jpg" alt="">
-                         <div class="service-overlay">
-                            <a href="ramdev-handles.html"></a>
+                            </div>
                         </div>
                     </div>
-                    <div class="text-center p-4">
-                        <h4>Stainless Steel Handles</h4>
-                        <div class="d-flex justify-content-center gap-2 flex-wrap">
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item d-flex flex-column bg-white p-3 pb-0 h-100">
+                        <div class="position-relative">
+                            <img class="img-fluid" src="img/ramdev/handle/ss-handles.jpg" alt="">
+                            <div class="service-overlay">
+                                <a href="ramdev-handles.html"></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h4>Stainless Steel Handles</h4>
+                            <div class="d-flex justify-content-center gap-2 flex-wrap">
                                 <a href="ramdev-handles.html" class="btn btn-primary">Learn More </a>
                                 <a class="btn btn-secondary d-flex align-items-center justify-content-center gap-2"
-                                href="https://wa.me/919029585033?text=Hi%20I%20am%20interested%20in%20Stainless%20Steel%20Handles"
-                                target="_blank">
-                                
-                                <span style="background-color: #25D366; color: white; border-radius: 50%; padding: 6px; display: inline-flex; align-items: center; justify-content: center;">
-                                    <i class="fab fa-whatsapp" style="font-size: 14px;"></i>
-                                </span>Get Quote
+                                    href="https://wa.me/919029585033?text=Hi%20I%20am%20interested%20in%20Stainless%20Steel%20Handles"
+                                    target="_blank">
+
+                                    <span
+                                        style="background-color: #25D366; color: white; border-radius: 50%; padding: 6px; display: inline-flex; align-items: center; justify-content: center;">
+                                        <i class="fab fa-whatsapp" style="font-size: 14px;"></i>
+                                    </span>Get Quote
                                 </a>
-                       </div>
-                    </div>
-                </div>
-            </div> 
-             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
-                <div class="service-item d-flex flex-column bg-white p-3 pb-0 h-100">
-                    <div class="position-relative">
-                        <img class="img-fluid" src="img/ramdev/gate/gate-1.jpg" alt="">
-                         <div class="service-overlay">
-                            <a href="ramdev-gates.html"></a>
+                            </div>
                         </div>
                     </div>
-                    <div class="text-center p-4">
-                        <h4>Stainless Steel Gates</h4>
-                       <div class="d-flex justify-content-center gap-2 flex-wrap">
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="service-item d-flex flex-column bg-white p-3 pb-0 h-100">
+                        <div class="position-relative">
+                            <img class="img-fluid" src="img/ramdev/gate/gate-1.jpg" alt="">
+                            <div class="service-overlay">
+                                <a href="ramdev-gates.html"></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h4>Stainless Steel Gates</h4>
+                            <div class="d-flex justify-content-center gap-2 flex-wrap">
                                 <a href="ramdev-gates.html" class="btn btn-primary">Learn More </a>
                                 <a class="btn btn-secondary d-flex align-items-center justify-content-center gap-2"
-                                href="https://wa.me/919029585033?text=Hi%20I%20am%20interested%20in%20Stainless%20Steel%20Gates"
-                                target="_blank">
-                                
-                                <span style="background-color: #25D366; color: white; border-radius: 50%; padding: 6px; display: inline-flex; align-items: center; justify-content: center;">
-                                    <i class="fab fa-whatsapp" style="font-size: 14px;"></i>
-                                </span>Get Quote
+                                    href="https://wa.me/919029585033?text=Hi%20I%20am%20interested%20in%20Stainless%20Steel%20Gates"
+                                    target="_blank">
+
+                                    <span
+                                        style="background-color: #25D366; color: white; border-radius: 50%; padding: 6px; display: inline-flex; align-items: center; justify-content: center;">
+                                        <i class="fab fa-whatsapp" style="font-size: 14px;"></i>
+                                    </span>Get Quote
                                 </a>
-                       </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                <div class="service-item d-flex flex-column bg-white p-3 pb-0 h-100">
-                    <div class="position-relative">
-                        <img class="img-fluid" src="img/cansole-3.jpg" alt="">
-                         <div class="service-overlay">
-                            <a href="ramdev-pvd-coating.html"></a>
+                            </div>
                         </div>
                     </div>
-                    <div class="text-center p-4">
-                        <h4>PVD Coating</h4>
-                        <div class="d-flex justify-content-center gap-2 flex-wrap">
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="service-item d-flex flex-column bg-white p-3 pb-0 h-100">
+                        <div class="position-relative">
+                            <img class="img-fluid" src="img/cansole-3.jpg" alt="">
+                            <div class="service-overlay">
+                                <a href="ramdev-pvd-coating.html"></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h4>PVD Coating</h4>
+                            <div class="d-flex justify-content-center gap-2 flex-wrap">
                                 <a href="ramdev-pvd-coating.html" class="btn btn-primary">Learn More </a>
                                 <a class="btn btn-secondary d-flex align-items-center justify-content-center gap-2"
-                                href="https://wa.me/919029585033?text=Hi%20I%20am%20interested%20in%20PVD%20Coating"
-                                target="_blank">
-                                
-                                <span style="background-color: #25D366; color: white; border-radius: 50%; padding: 6px; display: inline-flex; align-items: center; justify-content: center;">
-                                    <i class="fab fa-whatsapp" style="font-size: 14px;"></i>
-                                </span>Get Quote
+                                    href="https://wa.me/919029585033?text=Hi%20I%20am%20interested%20in%20PVD%20Coating"
+                                    target="_blank">
+
+                                    <span
+                                        style="background-color: #25D366; color: white; border-radius: 50%; padding: 6px; display: inline-flex; align-items: center; justify-content: center;">
+                                        <i class="fab fa-whatsapp" style="font-size: 14px;"></i>
+                                    </span>Get Quote
                                 </a>
-                       </div>
-                    </div>
-                </div>
-            </div>
-             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.8s">
-                <div class="service-item d-flex flex-column bg-white p-3 pb-0 h-100">
-                    <div class="position-relative">
-                        <img class="img-fluid" src="img/ss-modular-kitchen/mod-4.jpg" alt="">
-                         <div class="service-overlay">
-                            <a href="ramdev-kitchen.html"></a>
+                            </div>
                         </div>
                     </div>
-                    <div class="text-center p-4">
-                        <h4>Kitchen Items</h4>
-                        <div class="d-flex justify-content-center gap-2 flex-wrap">
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.8s">
+                    <div class="service-item d-flex flex-column bg-white p-3 pb-0 h-100">
+                        <div class="position-relative">
+                            <img class="img-fluid" src="img/ss-modular-kitchen/mod-4.jpg" alt="">
+                            <div class="service-overlay">
+                                <a href="ramdev-kitchen.html"></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h4>Kitchen Items</h4>
+                            <div class="d-flex justify-content-center gap-2 flex-wrap">
                                 <a href="ramdev-kitchen.html" class="btn btn-primary">Learn More </a>
                                 <a class="btn btn-secondary d-flex align-items-center justify-content-center gap-2"
-                                href="https://wa.me/919029585033?text=Hi%20I%20am%20interested%20in%20Kitchen%20Items"
-                                target="_blank">
-                                
-                                <span style="background-color: #25D366; color: white; border-radius: 50%; padding: 6px; display: inline-flex; align-items: center; justify-content: center;">
-                                    <i class="fab fa-whatsapp" style="font-size: 14px;"></i>
-                                </span>Get Quote
+                                    href="https://wa.me/919029585033?text=Hi%20I%20am%20interested%20in%20Kitchen%20Items"
+                                    target="_blank">
+
+                                    <span
+                                        style="background-color: #25D366; color: white; border-radius: 50%; padding: 6px; display: inline-flex; align-items: center; justify-content: center;">
+                                        <i class="fab fa-whatsapp" style="font-size: 14px;"></i>
+                                    </span>Get Quote
                                 </a>
-                       </div>
-                    </div>
-                </div>
-            </div> 
-             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.9s">
-                <div class="service-item d-flex flex-column bg-white p-3 pb-0 h-100">
-                    <div class="position-relative">
-                        <img class="img-fluid" src="img/cansole-table.jpg" alt="">
-                         <div class="service-overlay">
-                            <a href="cansole-table.html"></a>
+                            </div>
                         </div>
                     </div>
-                    <div class="text-center p-4">
-                        <h4>Console Table</h4>
-                       <div class="d-flex justify-content-center gap-2 flex-wrap">
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.9s">
+                    <div class="service-item d-flex flex-column bg-white p-3 pb-0 h-100">
+                        <div class="position-relative">
+                            <img class="img-fluid" src="img/cansole-table.jpg" alt="">
+                            <div class="service-overlay">
+                                <a href="cansole-table.html"></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h4>Console Table</h4>
+                            <div class="d-flex justify-content-center gap-2 flex-wrap">
                                 <a href="cansole-table.html" class="btn btn-primary">Learn More </a>
                                 <a class="btn btn-secondary d-flex align-items-center justify-content-center gap-2"
-                                href="https://wa.me/919029585033?text=Hi%20I%20am%20interested%20in%20Console%20Table"
-                                target="_blank">
-                                
-                                <span style="background-color: #25D366; color: white; border-radius: 50%; padding: 6px; display: inline-flex; align-items: center; justify-content: center;">
-                                    <i class="fab fa-whatsapp" style="font-size: 14px;"></i>
-                                </span>Get Quote
+                                    href="https://wa.me/919029585033?text=Hi%20I%20am%20interested%20in%20Console%20Table"
+                                    target="_blank">
+
+                                    <span
+                                        style="background-color: #25D366; color: white; border-radius: 50%; padding: 6px; display: inline-flex; align-items: center; justify-content: center;">
+                                        <i class="fab fa-whatsapp" style="font-size: 14px;"></i>
+                                    </span>Get Quote
                                 </a>
-                       </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            
-        </div>            
+
+            </div>
+        </div>
     </div>
-</div>
 
     <!-- Service End -->
 
@@ -645,52 +693,80 @@
                 <p class="text-primary text-uppercase mb-2">Our Works</p>
                 <h1 class="display-6 mb-0" style="font-size: 28px;">Explore Our Unique Product Collection</h1>
             </div>
-            
+
             <!-- Product Gallery Grid -->
             <div class="product-gallery">
                 <div class="product-tabs">
                     <ul class="nav nav-pills justify-content-center flex-wrap" id="productTab" role="tablist">
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link active" id="tab-all-tab" data-bs-toggle="pill" data-bs-target="#tab-all" type="button" role="tab" aria-controls="tab-all" aria-selected="true">All</button>
+                            <button class="nav-link active" id="tab-all-tab" data-bs-toggle="pill"
+                                data-bs-target="#tab-all" type="button" role="tab" aria-controls="tab-all"
+                                aria-selected="true">All</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="tab-grills-tab" data-bs-toggle="pill" data-bs-target="#tab-grills" type="button" role="tab" aria-controls="tab-grills" aria-selected="false">Stainless Steel Grills</button>
+                            <button class="nav-link" id="tab-grills-tab" data-bs-toggle="pill"
+                                data-bs-target="#tab-grills" type="button" role="tab" aria-controls="tab-grills"
+                                aria-selected="false">Stainless Steel Grills</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="tab-handles-tab" data-bs-toggle="pill" data-bs-target="#tab-handles" type="button" role="tab" aria-controls="tab-handles" aria-selected="false">Stainless Steel Handles</button>
+                            <button class="nav-link" id="tab-handles-tab" data-bs-toggle="pill"
+                                data-bs-target="#tab-handles" type="button" role="tab" aria-controls="tab-handles"
+                                aria-selected="false">Stainless Steel Handles</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="tab-railings-tab" data-bs-toggle="pill" data-bs-target="#tab-railings" type="button" role="tab" aria-controls="tab-railings" aria-selected="false">Stainless Steel Railings</button>
+                            <button class="nav-link" id="tab-railings-tab" data-bs-toggle="pill"
+                                data-bs-target="#tab-railings" type="button" role="tab" aria-controls="tab-railings"
+                                aria-selected="false">Stainless Steel Railings</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="tab-gates-tab" data-bs-toggle="pill" data-bs-target="#tab-gates" type="button" role="tab" aria-controls="tab-gates" aria-selected="false">Stainless Steel Gates</button>
+                            <button class="nav-link" id="tab-gates-tab" data-bs-toggle="pill"
+                                data-bs-target="#tab-gates" type="button" role="tab" aria-controls="tab-gates"
+                                aria-selected="false">Stainless Steel Gates</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="tab-doors-tab" data-bs-toggle="pill" data-bs-target="#tab-doors" type="button" role="tab" aria-controls="tab-doors" aria-selected="false">Stainless Steel Doors</button>
+                            <button class="nav-link" id="tab-doors-tab" data-bs-toggle="pill"
+                                data-bs-target="#tab-doors" type="button" role="tab" aria-controls="tab-doors"
+                                aria-selected="false">Stainless Steel Doors</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="tab-tables-tab" data-bs-toggle="pill" data-bs-target="#tab-tables" type="button" role="tab" aria-controls="tab-tables" aria-selected="false">Steel Tables</button>
+                            <button class="nav-link" id="tab-tables-tab" data-bs-toggle="pill"
+                                data-bs-target="#tab-tables" type="button" role="tab" aria-controls="tab-tables"
+                                aria-selected="false">Steel Tables</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="tab-chairs-tab" data-bs-toggle="pill" data-bs-target="#tab-chairs" type="button" role="tab" aria-controls="tab-chairs" aria-selected="false">Steel Chairs &amp; Stools</button>
+                            <button class="nav-link" id="tab-chairs-tab" data-bs-toggle="pill"
+                                data-bs-target="#tab-chairs" type="button" role="tab" aria-controls="tab-chairs"
+                                aria-selected="false">Steel Chairs &amp; Stools</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="tab-kitchen-tab" data-bs-toggle="pill" data-bs-target="#tab-kitchen" type="button" role="tab" aria-controls="tab-kitchen" aria-selected="false">Kitchen Items</button>
+                            <button class="nav-link" id="tab-kitchen-tab" data-bs-toggle="pill"
+                                data-bs-target="#tab-kitchen" type="button" role="tab" aria-controls="tab-kitchen"
+                                aria-selected="false">Kitchen Items</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="tab-pvd-tab" data-bs-toggle="pill" data-bs-target="#tab-pvd" type="button" role="tab" aria-controls="tab-pvd" aria-selected="false">PVD Coating</button>
+                            <button class="nav-link" id="tab-pvd-tab" data-bs-toggle="pill" data-bs-target="#tab-pvd"
+                                type="button" role="tab" aria-controls="tab-pvd" aria-selected="false">PVD
+                                Coating</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="tab-laser-tab" data-bs-toggle="pill" data-bs-target="#tab-laser" type="button" role="tab" aria-controls="tab-laser" aria-selected="false">Laser Cutting</button>
+                            <button class="nav-link" id="tab-laser-tab" data-bs-toggle="pill"
+                                data-bs-target="#tab-laser" type="button" role="tab" aria-controls="tab-laser"
+                                aria-selected="false">Laser Cutting</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="tab-accessories-tab" data-bs-toggle="pill" data-bs-target="#tab-accessories" type="button" role="tab" aria-controls="tab-accessories" aria-selected="false">Steel Accessories</button>
+                            <button class="nav-link" id="tab-accessories-tab" data-bs-toggle="pill"
+                                data-bs-target="#tab-accessories" type="button" role="tab"
+                                aria-controls="tab-accessories" aria-selected="false">Steel Accessories</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="tab-nameplates-tab" data-bs-toggle="pill" data-bs-target="#tab-nameplates" type="button" role="tab" aria-controls="tab-nameplates" aria-selected="false">Name Plates</button>
+                            <button class="nav-link" id="tab-nameplates-tab" data-bs-toggle="pill"
+                                data-bs-target="#tab-nameplates" type="button" role="tab" aria-controls="tab-nameplates"
+                                aria-selected="false">Name Plates</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="tab-decorative-tab" data-bs-toggle="pill" data-bs-target="#tab-decorative" type="button" role="tab" aria-controls="tab-decorative" aria-selected="false">Decorative Items</button>
+                            <button class="nav-link" id="tab-decorative-tab" data-bs-toggle="pill"
+                                data-bs-target="#tab-decorative" type="button" role="tab" aria-controls="tab-decorative"
+                                aria-selected="false">Decorative Items</button>
                         </li>
                     </ul>
                 </div>
@@ -701,9 +777,11 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="product-item">
                                     <div class="position-relative">
-                                        <img class="img-fluid w-100" src="img/ramdev/grill/grill-1.jpg" alt="Stainless Steel Grill 01">
+                                        <img class="img-fluid w-100" src="img/ramdev/grill/grill-1.jpg"
+                                            alt="Stainless Steel Grill 01">
                                         <div class="product-overlay">
-                                            <a href="img/ramdev/grill/grill-1.jpg" data-lightbox="all-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/ramdev/grill/grill-1.jpg" data-lightbox="all-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -715,9 +793,11 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="product-item">
                                     <div class="position-relative">
-                                        <img class="img-fluid w-100" src="img/ramdev/handle/handle-1.jpg" alt="Designer Handle 01">
+                                        <img class="img-fluid w-100" src="img/ramdev/RSI-SH/RSI-SH-1065.jpg"
+                                            alt="Designer Handle 01">
                                         <div class="product-overlay">
-                                            <a href="img/ramdev/handle/handle-1.jpg" data-lightbox="all-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/ramdev/RSI-SH/RSI-SH-1065.jpg" data-lightbox="all-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -729,9 +809,11 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="product-item">
                                     <div class="position-relative">
-                                        <img class="img-fluid w-100" src="img/ss-railings/ssrail-14.jpg" alt="Elegant Railing 01">
+                                        <img class="img-fluid w-100" src="img/ss-railings/ssrail-14.jpg"
+                                            alt="Elegant Railing 01">
                                         <div class="product-overlay">
-                                            <a href="img/ss-railings/ssrail-14.jpg" data-lightbox="all-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/ss-railings/ssrail-14.jpg" data-lightbox="all-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -743,9 +825,11 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="product-item">
                                     <div class="position-relative">
-                                        <img class="img-fluid w-100" src="img/ramdev/gate/gate-1.jpg" alt="Premium Gate 01">
+                                        <img class="img-fluid w-100" src="img/ramdev/gate/gate-1.jpg"
+                                            alt="Premium Gate 01">
                                         <div class="product-overlay">
-                                            <a href="img/ramdev/gate/gate-1.jpg" data-lightbox="all-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/ramdev/gate/gate-1.jpg" data-lightbox="all-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -757,9 +841,11 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="product-item">
                                     <div class="position-relative">
-                                        <img class="img-fluid w-100" src="img/ss-doors/ssdoor-1.jpg" alt="Security Door 01">
+                                        <img class="img-fluid w-100" src="img/ss-doors/ssdoor-1.jpg"
+                                            alt="Security Door 01">
                                         <div class="product-overlay">
-                                            <a href="img/ss-doors/ssdoor-1.jpg" data-lightbox="all-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/ss-doors/ssdoor-1.jpg" data-lightbox="all-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -773,7 +859,8 @@
                                     <div class="position-relative">
                                         <img class="img-fluid w-100" src="img/center-21.jpg" alt="Luxury Table 01">
                                         <div class="product-overlay">
-                                            <a href="img/center-21.jpg" data-lightbox="all-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/center-21.jpg" data-lightbox="all-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -785,9 +872,11 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="product-item">
                                     <div class="position-relative">
-                                        <img class="img-fluid w-100" src="img/ramdev/chairs/chairs-1.jpg" alt="Comfort Chair 01">
+                                        <img class="img-fluid w-100" src="img/ramdev/chairs/chairs-1.jpg"
+                                            alt="Comfort Chair 01">
                                         <div class="product-overlay">
-                                            <a href="img/ramdev/chairs/chairs-1.jpg" data-lightbox="all-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/ramdev/chairs/chairs-1.jpg" data-lightbox="all-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -799,9 +888,11 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="product-item">
                                     <div class="position-relative">
-                                        <img class="img-fluid w-100" src="img/ramdev/kitchen/mod-3.jpg" alt="Kitchen Setup 01">
+                                        <img class="img-fluid w-100" src="img/ramdev/kitchen/mod-3.jpg"
+                                            alt="Kitchen Setup 01">
                                         <div class="product-overlay">
-                                            <a href="img/ramdev/kitchen/mod-3.jpg" data-lightbox="all-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/ramdev/kitchen/mod-3.jpg" data-lightbox="all-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -815,7 +906,8 @@
                                     <div class="position-relative">
                                         <img class="img-fluid w-100" src="img/center-table-13.jpg" alt="PVD Finish 01">
                                         <div class="product-overlay">
-                                            <a href="img/center-table-13.jpg" data-lightbox="all-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/center-table-13.jpg" data-lightbox="all-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -827,9 +919,11 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="product-item">
                                     <div class="position-relative">
-                                        <img class="img-fluid w-100" src="img/ramdev/RSI-LC/RSI-LC-1001.jpg" alt="Laser Art 01">
+                                        <img class="img-fluid w-100" src="img/ramdev/RSI-LC/RSI-LC-1001.jpg"
+                                            alt="Laser Art 01">
                                         <div class="product-overlay">
-                                            <a href="img/ramdev/RSI-LC/RSI-LC-1001.jpg" data-lightbox="all-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/ramdev/RSI-LC/RSI-LC-1001.jpg" data-lightbox="all-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -841,9 +935,11 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="product-item">
                                     <div class="position-relative">
-                                        <img class="img-fluid w-100" src="img/ramdev/a-series/a1.jpg" alt="Accessory 01">
+                                        <img class="img-fluid w-100" src="img/ramdev/a-series/a1.jpg"
+                                            alt="Accessory 01">
                                         <div class="product-overlay">
-                                            <a href="img/ramdev/a-series/a1.jpg" data-lightbox="all-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/ramdev/a-series/a1.jpg" data-lightbox="all-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -855,9 +951,11 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="product-item">
                                     <div class="position-relative">
-                                        <img class="img-fluid w-100" src="img/ramdev/n-series/name-plate-1.jpg" alt="Name Plate 01">
+                                        <img class="img-fluid w-100" src="img/ramdev/n-series/name-plate-1.jpg"
+                                            alt="Name Plate 01">
                                         <div class="product-overlay">
-                                            <a href="img/ramdev/n-series/name-plate-1.jpg" data-lightbox="all-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/ramdev/n-series/name-plate-1.jpg" data-lightbox="all-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -871,7 +969,8 @@
                                     <div class="position-relative">
                                         <img class="img-fluid w-100" src="img/wall-13.jpg" alt="Decorative Panel 01">
                                         <div class="product-overlay">
-                                            <a href="img/wall-13.jpg" data-lightbox="all-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/wall-13.jpg" data-lightbox="all-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -888,9 +987,11 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="product-item">
                                     <div class="position-relative">
-                                        <img class="img-fluid w-100" src="img/ramdev/grill/grill-1.jpg" alt="Stainless Steel Grill 01">
+                                        <img class="img-fluid w-100" src="img/ramdev/grill/grill-1.jpg"
+                                            alt="Stainless Steel Grill 01">
                                         <div class="product-overlay">
-                                            <a href="img/ramdev/grill/grill-1.jpg" data-lightbox="grills-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/ramdev/grill/grill-1.jpg" data-lightbox="grills-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -902,9 +1003,11 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="product-item">
                                     <div class="position-relative">
-                                        <img class="img-fluid w-100" src="img/ramdev/grill/grill-6.jpg" alt="Stainless Steel Grill 06">
+                                        <img class="img-fluid w-100" src="img/ramdev/grill/grill-6.jpg"
+                                            alt="Stainless Steel Grill 06">
                                         <div class="product-overlay">
-                                            <a href="img/ramdev/grill/grill-6.jpg" data-lightbox="grills-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/ramdev/grill/grill-6.jpg" data-lightbox="grills-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -916,9 +1019,11 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="product-item">
                                     <div class="position-relative">
-                                        <img class="img-fluid w-100" src="img/ramdev/grill/grill-15.jpg" alt="Stainless Steel Grill 15">
+                                        <img class="img-fluid w-100" src="img/ramdev/grill/grill-15.jpg"
+                                            alt="Stainless Steel Grill 15">
                                         <div class="product-overlay">
-                                            <a href="img/ramdev/grill/grill-15.jpg" data-lightbox="grills-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/ramdev/grill/grill-15.jpg" data-lightbox="grills-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -930,9 +1035,11 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="product-item">
                                     <div class="position-relative">
-                                        <img class="img-fluid w-100" src="img/ramdev/grill/grill-13.jpg" alt="Stainless Steel Grill 24">
+                                        <img class="img-fluid w-100" src="img/ramdev/grill/grill-13.jpg"
+                                            alt="Stainless Steel Grill 24">
                                         <div class="product-overlay">
-                                            <a href="img/ramdev/grill/grill-24.jpg" data-lightbox="grills-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/ramdev/grill/grill-24.jpg" data-lightbox="grills-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -944,9 +1051,11 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="product-item">
                                     <div class="position-relative">
-                                        <img class="img-fluid w-100" src="img/ramdev/grill/grill-16.jpg" alt="Stainless Steel Grill 35">
+                                        <img class="img-fluid w-100" src="img/ramdev/grill/grill-16.jpg"
+                                            alt="Stainless Steel Grill 35">
                                         <div class="product-overlay">
-                                            <a href="img/ramdev/grill/grill-16.jpg" data-lightbox="grills-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/ramdev/grill/grill-16.jpg" data-lightbox="grills-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -958,9 +1067,11 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="product-item">
                                     <div class="position-relative">
-                                        <img class="img-fluid w-100" src="img/ramdev/grill/grill-8.jpg" alt="Stainless Steel Grill 45">
+                                        <img class="img-fluid w-100" src="img/ramdev/grill/grill-8.jpg"
+                                            alt="Stainless Steel Grill 45">
                                         <div class="product-overlay">
-                                            <a href="img/ramdev/grill/grill-8.jpg" data-lightbox="grills-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/ramdev/grill/grill-8.jpg" data-lightbox="grills-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -972,9 +1083,11 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="product-item">
                                     <div class="position-relative">
-                                        <img class="img-fluid w-100" src="img/ramdev/grill/grill-7.jpg" alt="Stainless Steel Grill 55">
+                                        <img class="img-fluid w-100" src="img/ramdev/grill/grill-7.jpg"
+                                            alt="Stainless Steel Grill 55">
                                         <div class="product-overlay">
-                                            <a href="img/ramdev/grill/grill-7.jpg" data-lightbox="grills-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/ramdev/grill/grill-7.jpg" data-lightbox="grills-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -986,9 +1099,11 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="product-item">
                                     <div class="position-relative">
-                                        <img class="img-fluid w-100" src="img/ramdev/grill/grill-2.jpg" alt="Stainless Steel Grill 66">
+                                        <img class="img-fluid w-100" src="img/ramdev/grill/grill-2.jpg"
+                                            alt="Stainless Steel Grill 66">
                                         <div class="product-overlay">
-                                            <a href="img/ramdev/grill/grill-2.jpg" data-lightbox="grills-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/ramdev/grill/grill-2.jpg" data-lightbox="grills-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -1005,9 +1120,11 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="product-item">
                                     <div class="position-relative">
-                                        <img class="img-fluid w-100" src="img/ramdev/handle/handle-1.jpg" alt="Designer Handle 01">
+                                        <img class="img-fluid w-100" src="img/ramdev/handle/handle-1.jpg"
+                                            alt="Designer Handle 01">
                                         <div class="product-overlay">
-                                            <a href="img/ramdev/handle/handle-1.jpg" data-lightbox="handles-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/ramdev/handle/handle-1.jpg" data-lightbox="handles-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -1019,9 +1136,11 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="product-item">
                                     <div class="position-relative">
-                                        <img class="img-fluid w-100" src="img/ramdev/handle/handle-2.jpg" alt="Designer Handle 02">
+                                        <img class="img-fluid w-100" src="img/ramdev/handle/handle-2.jpg"
+                                            alt="Designer Handle 02">
                                         <div class="product-overlay">
-                                            <a href="img/ramdev/handle/handle-2.jpg" data-lightbox="handles-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/ramdev/handle/handle-2.jpg" data-lightbox="handles-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -1033,9 +1152,11 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="product-item">
                                     <div class="position-relative">
-                                        <img class="img-fluid w-100" src="img/ramdev/handle/handle-3.jpg" alt="Designer Handle 03">
+                                        <img class="img-fluid w-100" src="img/ramdev/handle/handle-3.jpg"
+                                            alt="Designer Handle 03">
                                         <div class="product-overlay">
-                                            <a href="img/ramdev/handle/handle-3.jpg" data-lightbox="handles-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/ramdev/handle/handle-3.jpg" data-lightbox="handles-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -1047,9 +1168,11 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="product-item">
                                     <div class="position-relative">
-                                        <img class="img-fluid w-100" src="img/ramdev/handle/handle-4.jpg" alt="Designer Handle 04">
+                                        <img class="img-fluid w-100" src="img/ramdev/handle/handle-4.jpg"
+                                            alt="Designer Handle 04">
                                         <div class="product-overlay">
-                                            <a href="img/ramdev/handle/handle-4.jpg" data-lightbox="handles-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/ramdev/handle/handle-4.jpg" data-lightbox="handles-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -1061,9 +1184,11 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="product-item">
                                     <div class="position-relative">
-                                        <img class="img-fluid w-100" src="img/ramdev/handle/handle-5.jpg" alt="Designer Handle 05">
+                                        <img class="img-fluid w-100" src="img/ramdev/handle/handle-5.jpg"
+                                            alt="Designer Handle 05">
                                         <div class="product-overlay">
-                                            <a href="img/ramdev/handle/handle-5.jpg" data-lightbox="handles-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/ramdev/handle/handle-5.jpg" data-lightbox="handles-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -1075,9 +1200,11 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="product-item">
                                     <div class="position-relative">
-                                        <img class="img-fluid w-100" src="img/ramdev/handle/handle-6.jpg" alt="Designer Handle 06">
+                                        <img class="img-fluid w-100" src="img/ramdev/handle/handle-6.jpg"
+                                            alt="Designer Handle 06">
                                         <div class="product-overlay">
-                                            <a href="img/ramdev/handle/handle-6.jpg" data-lightbox="handles-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/ramdev/handle/handle-6.jpg" data-lightbox="handles-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -1094,9 +1221,11 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="product-item">
                                     <div class="position-relative">
-                                        <img class="img-fluid w-100" src="img/ss-railings/ssrail-1.jpg" alt="Stainless Steel Railing 01">
+                                        <img class="img-fluid w-100" src="img/ss-railings/ssrail-1.jpg"
+                                            alt="Stainless Steel Railing 01">
                                         <div class="product-overlay">
-                                            <a href="img/ss-railings/ssrail-1.jpg" data-lightbox="railings-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/ss-railings/ssrail-1.jpg" data-lightbox="railings-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -1108,9 +1237,11 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="product-item">
                                     <div class="position-relative">
-                                        <img class="img-fluid w-100" src="img/ss-railings/ssrail-10.jpg" alt="Stainless Steel Railing 05">
+                                        <img class="img-fluid w-100" src="img/ss-railings/ssrail-10.jpg"
+                                            alt="Stainless Steel Railing 05">
                                         <div class="product-overlay">
-                                            <a href="img/ss-railings/ssrail-10.jpg" data-lightbox="railings-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/ss-railings/ssrail-10.jpg" data-lightbox="railings-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -1122,9 +1253,11 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="product-item">
                                     <div class="position-relative">
-                                        <img class="img-fluid w-100" src="img/ss-railings/ssrail-9.jpg" alt="Stainless Steel Railing 09">
+                                        <img class="img-fluid w-100" src="img/ss-railings/ssrail-9.jpg"
+                                            alt="Stainless Steel Railing 09">
                                         <div class="product-overlay">
-                                            <a href="img/ss-railings/ssrail-9.jpg" data-lightbox="railings-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/ss-railings/ssrail-9.jpg" data-lightbox="railings-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -1136,9 +1269,11 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="product-item">
                                     <div class="position-relative">
-                                        <img class="img-fluid w-100" src="img/ss-railings/ssrail-12.jpg" alt="Stainless Steel Railing 12">
+                                        <img class="img-fluid w-100" src="img/ss-railings/ssrail-12.jpg"
+                                            alt="Stainless Steel Railing 12">
                                         <div class="product-overlay">
-                                            <a href="img/ss-railings/ssrail-12.jpg" data-lightbox="railings-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/ss-railings/ssrail-12.jpg" data-lightbox="railings-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -1150,9 +1285,11 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="product-item">
                                     <div class="position-relative">
-                                        <img class="img-fluid w-100" src="img/ss-railings/ssrail-18.jpg" alt="Stainless Steel Railing 18">
+                                        <img class="img-fluid w-100" src="img/ss-railings/ssrail-18.jpg"
+                                            alt="Stainless Steel Railing 18">
                                         <div class="product-overlay">
-                                            <a href="img/ss-railings/ssrail-18.jpg" data-lightbox="railings-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/ss-railings/ssrail-18.jpg" data-lightbox="railings-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -1164,9 +1301,11 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="product-item">
                                     <div class="position-relative">
-                                        <img class="img-fluid w-100" src="img/ss-railings/ssrail-4.jpg" alt="Stainless Steel Railing 24">
+                                        <img class="img-fluid w-100" src="img/ss-railings/ssrail-4.jpg"
+                                            alt="Stainless Steel Railing 24">
                                         <div class="product-overlay">
-                                            <a href="img/ss-railings/ssrail-4.jpg" data-lightbox="railings-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/ss-railings/ssrail-4.jpg" data-lightbox="railings-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -1183,9 +1322,11 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="product-item">
                                     <div class="position-relative">
-                                        <img class="img-fluid w-100" src="img/ramdev/gate/gate-1.jpg" alt="Stainless Steel Gate 01">
+                                        <img class="img-fluid w-100" src="img/ramdev/gate/gate-1.jpg"
+                                            alt="Stainless Steel Gate 01">
                                         <div class="product-overlay">
-                                            <a href="img/ramdev/gate/gate-1.jpg" data-lightbox="gates-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/ramdev/gate/gate-1.jpg" data-lightbox="gates-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -1197,9 +1338,11 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="product-item">
                                     <div class="position-relative">
-                                        <img class="img-fluid w-100" src="img/ramdev/gate/gate-4.jpg" alt="Stainless Steel Gate 04">
+                                        <img class="img-fluid w-100" src="img/ramdev/gate/gate-4.jpg"
+                                            alt="Stainless Steel Gate 04">
                                         <div class="product-overlay">
-                                            <a href="img/ramdev/gate/gate-4.jpg" data-lightbox="gates-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/ramdev/gate/gate-4.jpg" data-lightbox="gates-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -1211,9 +1354,11 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="product-item">
                                     <div class="position-relative">
-                                        <img class="img-fluid w-100" src="img/ramdev/gate/gate-7.jpg" alt="Stainless Steel Gate 07">
+                                        <img class="img-fluid w-100" src="img/ramdev/gate/gate-7.jpg"
+                                            alt="Stainless Steel Gate 07">
                                         <div class="product-overlay">
-                                            <a href="img/ramdev/gate/gate-7.jpg" data-lightbox="gates-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/ramdev/gate/gate-7.jpg" data-lightbox="gates-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -1225,9 +1370,11 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="product-item">
                                     <div class="position-relative">
-                                        <img class="img-fluid w-100" src="img/ramdev/gate/gate-10.jpg" alt="Stainless Steel Gate 10">
+                                        <img class="img-fluid w-100" src="img/ramdev/gate/gate-10.jpg"
+                                            alt="Stainless Steel Gate 10">
                                         <div class="product-overlay">
-                                            <a href="img/ramdev/gate/gate-10.jpg" data-lightbox="gates-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/ramdev/gate/gate-10.jpg" data-lightbox="gates-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -1239,9 +1386,11 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="product-item">
                                     <div class="position-relative">
-                                        <img class="img-fluid w-100" src="img/ramdev/gate/gate-14.jpg" alt="Stainless Steel Gate 14">
+                                        <img class="img-fluid w-100" src="img/ramdev/gate/gate-14.jpg"
+                                            alt="Stainless Steel Gate 14">
                                         <div class="product-overlay">
-                                            <a href="img/ramdev/gate/gate-14.jpg" data-lightbox="gates-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/ramdev/gate/gate-14.jpg" data-lightbox="gates-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -1253,9 +1402,11 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="product-item">
                                     <div class="position-relative">
-                                        <img class="img-fluid w-100" src="img/ramdev/gate/gate-18.jpg" alt="Stainless Steel Gate 18">
+                                        <img class="img-fluid w-100" src="img/ramdev/gate/gate-18.jpg"
+                                            alt="Stainless Steel Gate 18">
                                         <div class="product-overlay">
-                                            <a href="img/ramdev/gate/gate-18.jpg" data-lightbox="gates-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/ramdev/gate/gate-18.jpg" data-lightbox="gates-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -1272,9 +1423,11 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="product-item">
                                     <div class="position-relative">
-                                        <img class="img-fluid w-100" src="img/ss-doors/ssdoor-1.jpg" alt="Stainless Steel Door 01">
+                                        <img class="img-fluid w-100" src="img/ss-doors/ssdoor-1.jpg"
+                                            alt="Stainless Steel Door 01">
                                         <div class="product-overlay">
-                                            <a href="img/ss-doors/ssdoor-1.jpg" data-lightbox="doors-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/ss-doors/ssdoor-1.jpg" data-lightbox="doors-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -1286,9 +1439,11 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="product-item">
                                     <div class="position-relative">
-                                        <img class="img-fluid w-100" src="img/ss-doors/ssdoor-4.jpg" alt="Stainless Steel Door 04">
+                                        <img class="img-fluid w-100" src="img/ss-doors/ssdoor-4.jpg"
+                                            alt="Stainless Steel Door 04">
                                         <div class="product-overlay">
-                                            <a href="img/ss-doors/ssdoor-4.jpg" data-lightbox="doors-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/ss-doors/ssdoor-4.jpg" data-lightbox="doors-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -1300,9 +1455,11 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="product-item">
                                     <div class="position-relative">
-                                        <img class="img-fluid w-100" src="img/ss-doors/ssdoor-7.jpg" alt="Stainless Steel Door 07">
+                                        <img class="img-fluid w-100" src="img/ss-doors/ssdoor-7.jpg"
+                                            alt="Stainless Steel Door 07">
                                         <div class="product-overlay">
-                                            <a href="img/ss-doors/ssdoor-7.jpg" data-lightbox="doors-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/ss-doors/ssdoor-7.jpg" data-lightbox="doors-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -1314,9 +1471,11 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="product-item">
                                     <div class="position-relative">
-                                        <img class="img-fluid w-100" src="img/ss-doors/ssdoor-10.jpg" alt="Stainless Steel Door 10">
+                                        <img class="img-fluid w-100" src="img/ss-doors/ssdoor-10.jpg"
+                                            alt="Stainless Steel Door 10">
                                         <div class="product-overlay">
-                                            <a href="img/ss-doors/ssdoor-10.jpg" data-lightbox="doors-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/ss-doors/ssdoor-10.jpg" data-lightbox="doors-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -1328,9 +1487,11 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="product-item">
                                     <div class="position-relative">
-                                        <img class="img-fluid w-100" src="img/ss-doors/ssdoor-13.jpg" alt="Stainless Steel Door 13">
+                                        <img class="img-fluid w-100" src="img/ss-doors/ssdoor-13.jpg"
+                                            alt="Stainless Steel Door 13">
                                         <div class="product-overlay">
-                                            <a href="img/ss-doors/ssdoor-13.jpg" data-lightbox="doors-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/ss-doors/ssdoor-13.jpg" data-lightbox="doors-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -1342,9 +1503,11 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="product-item">
                                     <div class="position-relative">
-                                        <img class="img-fluid w-100" src="img/ss-doors/ssdoor-16.jpg" alt="Stainless Steel Door 16">
+                                        <img class="img-fluid w-100" src="img/ss-doors/ssdoor-16.jpg"
+                                            alt="Stainless Steel Door 16">
                                         <div class="product-overlay">
-                                            <a href="img/ss-doors/ssdoor-16.jpg" data-lightbox="doors-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/ss-doors/ssdoor-16.jpg" data-lightbox="doors-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -1363,7 +1526,8 @@
                                     <div class="position-relative">
                                         <img class="img-fluid w-100" src="img/center-19.jpg" alt="Designer Table 01">
                                         <div class="product-overlay">
-                                            <a href="img/center-19.jpg" data-lightbox="tables-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/center-19.jpg" data-lightbox="tables-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -1377,7 +1541,8 @@
                                     <div class="position-relative">
                                         <img class="img-fluid w-100" src="img/center-21.jpg" alt="Designer Table 08">
                                         <div class="product-overlay">
-                                            <a href="img/center-21.jpg" data-lightbox="tables-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/center-21.jpg" data-lightbox="tables-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -1391,7 +1556,8 @@
                                     <div class="position-relative">
                                         <img class="img-fluid w-100" src="img/center-22.jpg" alt="Designer Table 12">
                                         <div class="product-overlay">
-                                            <a href="img/center-22.jpg" data-lightbox="tables-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/center-22.jpg" data-lightbox="tables-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -1405,7 +1571,8 @@
                                     <div class="position-relative">
                                         <img class="img-fluid w-100" src="img/center-23.jpg" alt="Designer Table 18">
                                         <div class="product-overlay">
-                                            <a href="img/center-23.jpg" data-lightbox="tables-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/center-23.jpg" data-lightbox="tables-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -1417,9 +1584,11 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="product-item">
                                     <div class="position-relative">
-                                        <img class="img-fluid w-100" src="img/center-table-1.jpg" alt="Designer Table 24">
+                                        <img class="img-fluid w-100" src="img/center-table-1.jpg"
+                                            alt="Designer Table 24">
                                         <div class="product-overlay">
-                                            <a href="img/center-table-1.jpg" data-lightbox="tables-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/center-table-1.jpg" data-lightbox="tables-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -1431,9 +1600,11 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="product-item">
                                     <div class="position-relative">
-                                        <img class="img-fluid w-100" src="img/center-table-2.jpg" alt="Designer Table 28">
+                                        <img class="img-fluid w-100" src="img/center-table-2.jpg"
+                                            alt="Designer Table 28">
                                         <div class="product-overlay">
-                                            <a href="img/center-table-2.jpg" data-lightbox="tables-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/center-table-2.jpg" data-lightbox="tables-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -1450,9 +1621,11 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="product-item">
                                     <div class="position-relative">
-                                        <img class="img-fluid w-100" src="img/ramdev/chairs/chairs-1.jpg" alt="Steel Chair 01">
+                                        <img class="img-fluid w-100" src="img/ramdev/chairs/chairs-1.jpg"
+                                            alt="Steel Chair 01">
                                         <div class="product-overlay">
-                                            <a href="img/ramdev/chairs/chairs-1.jpg" data-lightbox="chairs-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/ramdev/chairs/chairs-1.jpg" data-lightbox="chairs-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -1464,9 +1637,11 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="product-item">
                                     <div class="position-relative">
-                                        <img class="img-fluid w-100" src="img/ramdev/chairs/chairs-4.jpg" alt="Steel Chair 04">
+                                        <img class="img-fluid w-100" src="img/ramdev/chairs/chairs-4.jpg"
+                                            alt="Steel Chair 04">
                                         <div class="product-overlay">
-                                            <a href="img/ramdev/chairs/chairs-4.jpg" data-lightbox="chairs-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/ramdev/chairs/chairs-4.jpg" data-lightbox="chairs-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -1478,9 +1653,11 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="product-item">
                                     <div class="position-relative">
-                                        <img class="img-fluid w-100" src="img/ramdev/chairs/chairs-7.jpg" alt="Steel Chair 07">
+                                        <img class="img-fluid w-100" src="img/ramdev/chairs/chairs-7.jpg"
+                                            alt="Steel Chair 07">
                                         <div class="product-overlay">
-                                            <a href="img/ramdev/chairs/chairs-7.jpg" data-lightbox="chairs-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/ramdev/chairs/chairs-7.jpg" data-lightbox="chairs-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -1492,9 +1669,11 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="product-item">
                                     <div class="position-relative">
-                                        <img class="img-fluid w-100" src="img/ramdev/chairs/chairs-10.jpg" alt="Steel Chair 10">
+                                        <img class="img-fluid w-100" src="img/ramdev/chairs/chairs-10.jpg"
+                                            alt="Steel Chair 10">
                                         <div class="product-overlay">
-                                            <a href="img/ramdev/chairs/chairs-10.jpg" data-lightbox="chairs-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/ramdev/chairs/chairs-10.jpg" data-lightbox="chairs-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -1506,9 +1685,11 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="product-item">
                                     <div class="position-relative">
-                                        <img class="img-fluid w-100" src="img/ramdev/chairs/chairs-14.jpg" alt="Steel Chair 14">
+                                        <img class="img-fluid w-100" src="img/ramdev/chairs/chairs-14.jpg"
+                                            alt="Steel Chair 14">
                                         <div class="product-overlay">
-                                            <a href="img/ramdev/chairs/chairs-14.jpg" data-lightbox="chairs-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/ramdev/chairs/chairs-14.jpg" data-lightbox="chairs-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -1520,9 +1701,11 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="product-item">
                                     <div class="position-relative">
-                                        <img class="img-fluid w-100" src="img/ramdev/chairs/chairs-18.jpg" alt="Steel Chair 18">
+                                        <img class="img-fluid w-100" src="img/ramdev/chairs/chairs-18.jpg"
+                                            alt="Steel Chair 18">
                                         <div class="product-overlay">
-                                            <a href="img/ramdev/chairs/chairs-18.jpg" data-lightbox="chairs-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/ramdev/chairs/chairs-18.jpg" data-lightbox="chairs-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -1539,9 +1722,11 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="product-item">
                                     <div class="position-relative">
-                                        <img class="img-fluid w-100" src="img/ramdev/kitchen/mod-1.jpg" alt="Kitchen Setup 01">
+                                        <img class="img-fluid w-100" src="img/ramdev/kitchen/mod-1.jpg"
+                                            alt="Kitchen Setup 01">
                                         <div class="product-overlay">
-                                            <a href="img/ramdev/kitchen/mod-1.jpg" data-lightbox="kitchen-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/ramdev/kitchen/mod-1.jpg" data-lightbox="kitchen-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -1553,9 +1738,11 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="product-item">
                                     <div class="position-relative">
-                                        <img class="img-fluid w-100" src="img/ramdev/kitchen/mod-2.jpg" alt="Kitchen Setup 02">
+                                        <img class="img-fluid w-100" src="img/ramdev/kitchen/mod-2.jpg"
+                                            alt="Kitchen Setup 02">
                                         <div class="product-overlay">
-                                            <a href="img/ramdev/kitchen/mod-2.jpg" data-lightbox="kitchen-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/ramdev/kitchen/mod-2.jpg" data-lightbox="kitchen-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -1567,9 +1754,11 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="product-item">
                                     <div class="position-relative">
-                                        <img class="img-fluid w-100" src="img/ramdev/kitchen/mod-3.jpg" alt="Kitchen Setup 03">
+                                        <img class="img-fluid w-100" src="img/ramdev/kitchen/mod-3.jpg"
+                                            alt="Kitchen Setup 03">
                                         <div class="product-overlay">
-                                            <a href="img/ramdev/kitchen/mod-3.jpg" data-lightbox="kitchen-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/ramdev/kitchen/mod-3.jpg" data-lightbox="kitchen-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -1581,9 +1770,11 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="product-item">
                                     <div class="position-relative">
-                                        <img class="img-fluid w-100" src="img/ramdev/kitchen/mod-4.jpg" alt="Kitchen Setup 04">
+                                        <img class="img-fluid w-100" src="img/ramdev/kitchen/mod-4.jpg"
+                                            alt="Kitchen Setup 04">
                                         <div class="product-overlay">
-                                            <a href="img/ramdev/kitchen/mod-4.jpg" data-lightbox="kitchen-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/ramdev/kitchen/mod-4.jpg" data-lightbox="kitchen-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -1595,9 +1786,11 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="product-item">
                                     <div class="position-relative">
-                                        <img class="img-fluid w-100" src="img/ramdev/kitchen/mod-5.jpg" alt="Kitchen Setup 05">
+                                        <img class="img-fluid w-100" src="img/ramdev/kitchen/mod-5.jpg"
+                                            alt="Kitchen Setup 05">
                                         <div class="product-overlay">
-                                            <a href="img/ramdev/kitchen/mod-5.jpg" data-lightbox="kitchen-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/ramdev/kitchen/mod-5.jpg" data-lightbox="kitchen-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -1609,9 +1802,11 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="product-item">
                                     <div class="position-relative">
-                                        <img class="img-fluid w-100" src="img/ramdev/kitchen/mod-6.jpg" alt="Kitchen Setup 06">
+                                        <img class="img-fluid w-100" src="img/ramdev/kitchen/mod-6.jpg"
+                                            alt="Kitchen Setup 06">
                                         <div class="product-overlay">
-                                            <a href="img/ramdev/kitchen/mod-6.jpg" data-lightbox="kitchen-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/ramdev/kitchen/mod-6.jpg" data-lightbox="kitchen-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -1628,9 +1823,11 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="product-item">
                                     <div class="position-relative">
-                                        <img class="img-fluid w-100" src="img/center-table-1.jpg" alt="PVD Coating 1001">
+                                        <img class="img-fluid w-100" src="img/center-table-1.jpg"
+                                            alt="PVD Coating 1001">
                                         <div class="product-overlay">
-                                            <a href="img/center-table-1.jpg" data-lightbox="pvd-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/center-table-1.jpg" data-lightbox="pvd-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -1642,9 +1839,11 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="product-item">
                                     <div class="position-relative">
-                                        <img class="img-fluid w-100" src="img/center-table-10.jpg" alt="PVD Coating 1002">
+                                        <img class="img-fluid w-100" src="img/center-table-10.jpg"
+                                            alt="PVD Coating 1002">
                                         <div class="product-overlay">
-                                            <a href="img/center-table-10.jpg" data-lightbox="pvd-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/center-table-10.jpg" data-lightbox="pvd-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -1656,9 +1855,11 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="product-item">
                                     <div class="position-relative">
-                                        <img class="img-fluid w-100" src="img/center-table-11.jpg" alt="PVD Coating 1003">
+                                        <img class="img-fluid w-100" src="img/center-table-11.jpg"
+                                            alt="PVD Coating 1003">
                                         <div class="product-overlay">
-                                            <a href="img/center-table-11.jpg" data-lightbox="pvd-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/center-table-11.jpg" data-lightbox="pvd-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -1670,9 +1871,11 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="product-item">
                                     <div class="position-relative">
-                                        <img class="img-fluid w-100" src="img/center-table-12.jpg" alt="PVD Coating 1004">
+                                        <img class="img-fluid w-100" src="img/center-table-12.jpg"
+                                            alt="PVD Coating 1004">
                                         <div class="product-overlay">
-                                            <a href="img/center-table-12.jpg" data-lightbox="pvd-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/center-table-12.jpg" data-lightbox="pvd-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -1684,9 +1887,11 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="product-item">
                                     <div class="position-relative">
-                                        <img class="img-fluid w-100" src="img/center-table-13.jpg" alt="PVD Coating 1005">
+                                        <img class="img-fluid w-100" src="img/center-table-13.jpg"
+                                            alt="PVD Coating 1005">
                                         <div class="product-overlay">
-                                            <a href="img/center-table-13.jpg" data-lightbox="pvd-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/center-table-13.jpg" data-lightbox="pvd-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -1698,9 +1903,11 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="product-item">
                                     <div class="position-relative">
-                                        <img class="img-fluid w-100" src="img/center-table-14.jpg" alt="PVD Coating 1006">
+                                        <img class="img-fluid w-100" src="img/center-table-14.jpg"
+                                            alt="PVD Coating 1006">
                                         <div class="product-overlay">
-                                            <a href="img/center-table-14.jpg" data-lightbox="pvd-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/center-table-14.jpg" data-lightbox="pvd-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -1717,9 +1924,11 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="product-item">
                                     <div class="position-relative">
-                                        <img class="img-fluid w-100" src="img/center-table-15.jpg" alt="Laser Cutting 1001">
+                                        <img class="img-fluid w-100" src="img/center-table-15.jpg"
+                                            alt="Laser Cutting 1001">
                                         <div class="product-overlay">
-                                            <a href="img/center-table-15.jpg" data-lightbox="laser-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/center-table-15.jpg" data-lightbox="laser-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -1731,9 +1940,11 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="product-item">
                                     <div class="position-relative">
-                                        <img class="img-fluid w-100" src="img/center-table-16.jpg" alt="Laser Cutting 1002">
+                                        <img class="img-fluid w-100" src="img/center-table-16.jpg"
+                                            alt="Laser Cutting 1002">
                                         <div class="product-overlay">
-                                            <a href="img/center-table-16.jpg" data-lightbox="laser-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/center-table-16.jpg" data-lightbox="laser-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -1745,9 +1956,11 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="product-item">
                                     <div class="position-relative">
-                                        <img class="img-fluid w-100" src="img/center-table-17.jpg" alt="Laser Cutting 1003">
+                                        <img class="img-fluid w-100" src="img/center-table-17.jpg"
+                                            alt="Laser Cutting 1003">
                                         <div class="product-overlay">
-                                            <a href="img/center-table-17.jpg" data-lightbox="laser-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/center-table-17.jpg" data-lightbox="laser-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -1759,9 +1972,11 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="product-item">
                                     <div class="position-relative">
-                                        <img class="img-fluid w-100" src="img/center-table-18.jpg" alt="Laser Cutting 1004">
+                                        <img class="img-fluid w-100" src="img/center-table-18.jpg"
+                                            alt="Laser Cutting 1004">
                                         <div class="product-overlay">
-                                            <a href="img/center-table-18.jpg" data-lightbox="laser-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/center-table-18.jpg" data-lightbox="laser-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -1773,9 +1988,11 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="product-item">
                                     <div class="position-relative">
-                                        <img class="img-fluid w-100" src="img/center-table-18.jpg" alt="Laser Cutting 1005">
+                                        <img class="img-fluid w-100" src="img/center-table-18.jpg"
+                                            alt="Laser Cutting 1005">
                                         <div class="product-overlay">
-                                            <a href="img/center-table-18.jpg" data-lightbox="laser-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/center-table-18.jpg" data-lightbox="laser-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -1787,9 +2004,11 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="product-item">
                                     <div class="position-relative">
-                                        <img class="img-fluid w-100" src="img/center-table-20.jpg" alt="Laser Cutting 1006">
+                                        <img class="img-fluid w-100" src="img/center-table-20.jpg"
+                                            alt="Laser Cutting 1006">
                                         <div class="product-overlay">
-                                            <a href="img/center-table-20.jpg" data-lightbox="laser-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/center-table-20.jpg" data-lightbox="laser-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -1801,14 +2020,17 @@
                         </div>
                     </div>
 
-                    <div class="tab-pane fade" id="tab-accessories" role="tabpanel" aria-labelledby="tab-accessories-tab">
+                    <div class="tab-pane fade" id="tab-accessories" role="tabpanel"
+                        aria-labelledby="tab-accessories-tab">
                         <div class="row g-4">
                             <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="product-item">
                                     <div class="position-relative">
-                                        <img class="img-fluid w-100" src="img/ramdev/a-series/a1.jpg" alt="Steel Accessory 01">
+                                        <img class="img-fluid w-100" src="img/ramdev/a-series/a1.jpg"
+                                            alt="Steel Accessory 01">
                                         <div class="product-overlay">
-                                            <a href="img/ramdev/a-series/a1.jpg" data-lightbox="accessories-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/ramdev/a-series/a1.jpg" data-lightbox="accessories-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -1820,9 +2042,11 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="product-item">
                                     <div class="position-relative">
-                                        <img class="img-fluid w-100" src="img/ramdev/a-series/a4.jpg" alt="Steel Accessory 04">
+                                        <img class="img-fluid w-100" src="img/ramdev/a-series/a4.jpg"
+                                            alt="Steel Accessory 04">
                                         <div class="product-overlay">
-                                            <a href="img/ramdev/a-series/a4.jpg" data-lightbox="accessories-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/ramdev/a-series/a4.jpg" data-lightbox="accessories-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -1834,9 +2058,11 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="product-item">
                                     <div class="position-relative">
-                                        <img class="img-fluid w-100" src="img/ramdev/a-series/a7.jpg" alt="Steel Accessory 07">
+                                        <img class="img-fluid w-100" src="img/ramdev/a-series/a7.jpg"
+                                            alt="Steel Accessory 07">
                                         <div class="product-overlay">
-                                            <a href="img/ramdev/a-series/a7.jpg" data-lightbox="accessories-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/ramdev/a-series/a7.jpg" data-lightbox="accessories-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -1848,9 +2074,11 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="product-item">
                                     <div class="position-relative">
-                                        <img class="img-fluid w-100" src="img/ramdev/a-series/a10.jpg" alt="Steel Accessory 10">
+                                        <img class="img-fluid w-100" src="img/ramdev/a-series/a10.jpg"
+                                            alt="Steel Accessory 10">
                                         <div class="product-overlay">
-                                            <a href="img/ramdev/a-series/a10.jpg" data-lightbox="accessories-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/ramdev/a-series/a10.jpg" data-lightbox="accessories-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -1862,9 +2090,11 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="product-item">
                                     <div class="position-relative">
-                                        <img class="img-fluid w-100" src="img/ramdev/a-series/a13.jpg" alt="Steel Accessory 13">
+                                        <img class="img-fluid w-100" src="img/ramdev/a-series/a13.jpg"
+                                            alt="Steel Accessory 13">
                                         <div class="product-overlay">
-                                            <a href="img/ramdev/a-series/a13.jpg" data-lightbox="accessories-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/ramdev/a-series/a13.jpg" data-lightbox="accessories-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -1876,9 +2106,11 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="product-item">
                                     <div class="position-relative">
-                                        <img class="img-fluid w-100" src="img/ramdev/a-series/a16.jpg" alt="Steel Accessory 16">
+                                        <img class="img-fluid w-100" src="img/ramdev/a-series/a16.jpg"
+                                            alt="Steel Accessory 16">
                                         <div class="product-overlay">
-                                            <a href="img/ramdev/a-series/a16.jpg" data-lightbox="accessories-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/ramdev/a-series/a16.jpg" data-lightbox="accessories-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -1895,9 +2127,12 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="product-item">
                                     <div class="position-relative">
-                                        <img class="img-fluid w-100" src="img/ramdev/n-series/name-plate-1.jpg" alt="Name Plate 01">
+                                        <img class="img-fluid w-100" src="img/ramdev/n-series/name-plate-1.jpg"
+                                            alt="Name Plate 01">
                                         <div class="product-overlay">
-                                            <a href="img/ramdev/n-series/name-plate-1.jpg" data-lightbox="nameplates-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/ramdev/n-series/name-plate-1.jpg"
+                                                data-lightbox="nameplates-gallery" class="btn btn-sm btn-light"><i
+                                                    class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -1909,9 +2144,12 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="product-item">
                                     <div class="position-relative">
-                                        <img class="img-fluid w-100" src="img/ramdev/n-series/name-plate-2.jpg" alt="Name Plate 02">
+                                        <img class="img-fluid w-100" src="img/ramdev/n-series/name-plate-2.jpg"
+                                            alt="Name Plate 02">
                                         <div class="product-overlay">
-                                            <a href="img/ramdev/n-series/name-plate-2.jpg" data-lightbox="nameplates-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/ramdev/n-series/name-plate-2.jpg"
+                                                data-lightbox="nameplates-gallery" class="btn btn-sm btn-light"><i
+                                                    class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -1923,9 +2161,11 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="product-item">
                                     <div class="position-relative">
-                                        <img class="img-fluid w-100" src="img/ramdev/n-series/n1.jpg" alt="Name Plate N1">
+                                        <img class="img-fluid w-100" src="img/ramdev/n-series/n1.jpg"
+                                            alt="Name Plate N1">
                                         <div class="product-overlay">
-                                            <a href="img/ramdev/n-series/n1.jpg" data-lightbox="nameplates-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/ramdev/n-series/n1.jpg" data-lightbox="nameplates-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -1937,9 +2177,11 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="product-item">
                                     <div class="position-relative">
-                                        <img class="img-fluid w-100" src="img/ramdev/n-series/n2.jpg" alt="Name Plate N2">
+                                        <img class="img-fluid w-100" src="img/ramdev/n-series/n2.jpg"
+                                            alt="Name Plate N2">
                                         <div class="product-overlay">
-                                            <a href="img/ramdev/n-series/n2.jpg" data-lightbox="nameplates-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/ramdev/n-series/n2.jpg" data-lightbox="nameplates-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -1951,9 +2193,11 @@
                             <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="product-item">
                                     <div class="position-relative">
-                                        <img class="img-fluid w-100" src="img/ramdev/n-series/n3.jpg" alt="Name Plate N3">
+                                        <img class="img-fluid w-100" src="img/ramdev/n-series/n3.jpg"
+                                            alt="Name Plate N3">
                                         <div class="product-overlay">
-                                            <a href="img/ramdev/n-series/n3.jpg" data-lightbox="nameplates-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/ramdev/n-series/n3.jpg" data-lightbox="nameplates-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -1962,7 +2206,7 @@
                                     </div>
                                 </div>
                             </div>
-                            
+
                         </div>
                     </div>
 
@@ -1973,7 +2217,8 @@
                                     <div class="position-relative">
                                         <img class="img-fluid w-100" src="img/wall-1.jpg" alt="Decorative Item 23">
                                         <div class="product-overlay">
-                                            <a href="img/wall-1.jpg" data-lightbox="decorative-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/wall-1.jpg" data-lightbox="decorative-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -1987,7 +2232,8 @@
                                     <div class="position-relative">
                                         <img class="img-fluid w-100" src="img/wall-2.jpg" alt="Decorative Item 24">
                                         <div class="product-overlay">
-                                            <a href="img/wall-2.jpg" data-lightbox="decorative-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/wall-2.jpg" data-lightbox="decorative-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -2001,7 +2247,8 @@
                                     <div class="position-relative">
                                         <img class="img-fluid w-100" src="img/wall-3.jpg" alt="Decorative Item 25">
                                         <div class="product-overlay">
-                                            <a href="img/wall-3.jpg" data-lightbox="decorative-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/wall-3.jpg" data-lightbox="decorative-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -2015,7 +2262,8 @@
                                     <div class="position-relative">
                                         <img class="img-fluid w-100" src="img/wall-4.jpg" alt="Decorative Item 26">
                                         <div class="product-overlay">
-                                            <a href="img/wall-4.jpg" data-lightbox="decorative-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/wall-4.jpg" data-lightbox="decorative-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -2029,7 +2277,8 @@
                                     <div class="position-relative">
                                         <img class="img-fluid w-100" src="img/wall-5.jpg" alt="Decorative Item 27">
                                         <div class="product-overlay">
-                                            <a href="img/wall-5.jpg" data-lightbox="decorative-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/wall-5.jpg" data-lightbox="decorative-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -2043,7 +2292,8 @@
                                     <div class="position-relative">
                                         <img class="img-fluid w-100" src="img/wall-6.jpg" alt="Decorative Item 28">
                                         <div class="product-overlay">
-                                            <a href="img/wall-6.jpg" data-lightbox="decorative-gallery" class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
+                                            <a href="img/wall-6.jpg" data-lightbox="decorative-gallery"
+                                                class="btn btn-sm btn-light"><i class="fa fa-eye"></i></a>
                                         </div>
                                     </div>
                                     <div class="text-center p-3 bg-light">
@@ -2085,12 +2335,18 @@
                                 <h4>Laser Metal Art</h4>
                                 <span>Designer & Fabricator</span>
                             </div>
-                            <p>Laser cutting makes strong steel into beautiful art, used in homes, temples, and gardens homes</p>
+                            <p>Laser cutting makes strong steel into beautiful art, used in homes, temples, and gardens
+                                homes</p>
                             <div class="d-flex">
-                              <a class="btn btn-square btn-outline-primary rounded-circle me-2" href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-outline-primary rounded-circle me-2" href="https://x.com/"><i class="fab fa-x-twitter"></i></a>
-                                <a class="btn btn-square btn-outline-primary rounded-circle me-2" href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
-                                <a class="btn btn-square btn-outline-primary rounded-circle" href="https://wa.me/919029585033" target="_blank" title="Chat on WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                                <a class="btn btn-square btn-outline-primary rounded-circle me-2"
+                                    href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-outline-primary rounded-circle me-2"
+                                    href="https://x.com/"><i class="fab fa-x-twitter"></i></a>
+                                <a class="btn btn-square btn-outline-primary rounded-circle me-2"
+                                    href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-square btn-outline-primary rounded-circle"
+                                    href="https://wa.me/919029585033" target="_blank" title="Chat on WhatsApp"><i
+                                        class="fab fa-whatsapp"></i></a>
                             </div>
                         </div>
                     </div>
@@ -2109,12 +2365,18 @@
                                 <h4>CNC Door Craving</h4>
                                 <span>Videographer</span>
                             </div>
-                            <p>We manufacture CNC carved doors with intricate designs, perfect for homes and temples.</p>
+                            <p>We manufacture CNC carved doors with intricate designs, perfect for homes and temples.
+                            </p>
                             <div class="d-flex">
-                               <a class="btn btn-square btn-outline-primary rounded-circle me-2" href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-outline-primary rounded-circle me-2" href="https://x.com/"><i class="fab fa-x-twitter"></i></a>
-                                <a class="btn btn-square btn-outline-primary rounded-circle me-2" href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
-                                <a class="btn btn-square btn-outline-primary rounded-circle" href="https://wa.me/919029585033" target="_blank" title="Chat on WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                                <a class="btn btn-square btn-outline-primary rounded-circle me-2"
+                                    href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-outline-primary rounded-circle me-2"
+                                    href="https://x.com/"><i class="fab fa-x-twitter"></i></a>
+                                <a class="btn btn-square btn-outline-primary rounded-circle me-2"
+                                    href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-square btn-outline-primary rounded-circle"
+                                    href="https://wa.me/919029585033" target="_blank" title="Chat on WhatsApp"><i
+                                        class="fab fa-whatsapp"></i></a>
                             </div>
                         </div>
                     </div>
@@ -2133,12 +2395,18 @@
                                 <h4>CNC Jali cutting</h4>
                                 <span>Jali Fabricator</span>
                             </div>
-                            <p>We manufacture CNC jali cutting with precise designs, ideal for doors, windows, and partitions.</p>
+                            <p>We manufacture CNC jali cutting with precise designs, ideal for doors, windows, and
+                                partitions.</p>
                             <div class="d-flex">
-                               <a class="btn btn-square btn-outline-primary rounded-circle me-2" href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-outline-primary rounded-circle me-2" href="https://x.com/"><i class="fab fa-x-twitter"></i></a>
-                                <a class="btn btn-square btn-outline-primary rounded-circle me-2" href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
-                                <a class="btn btn-square btn-outline-primary rounded-circle" href="https://wa.me/919029585033" target="_blank" title="Chat on WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                                <a class="btn btn-square btn-outline-primary rounded-circle me-2"
+                                    href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-outline-primary rounded-circle me-2"
+                                    href="https://x.com/"><i class="fab fa-x-twitter"></i></a>
+                                <a class="btn btn-square btn-outline-primary rounded-circle me-2"
+                                    href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-square btn-outline-primary rounded-circle"
+                                    href="https://wa.me/919029585033" target="_blank" title="Chat on WhatsApp"><i
+                                        class="fab fa-whatsapp"></i></a>
                             </div>
                         </div>
                     </div>
@@ -2159,10 +2427,15 @@
                             </div>
                             <p>Laser cut steel art makes beautiful designs for homes, mandirs, gates, and wall decor</p>
                             <div class="d-flex">
-                                <a class="btn btn-square btn-outline-primary rounded-circle me-2" href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-outline-primary rounded-circle me-2" href="https://x.com/"><i class="fab fa-x-twitter"></i></a>
-                                <a class="btn btn-square btn-outline-primary rounded-circle me-2" href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
-                                <a class="btn btn-square btn-outline-primary rounded-circle" href="https://wa.me/919029585033" target="_blank" title="Chat on WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                                <a class="btn btn-square btn-outline-primary rounded-circle me-2"
+                                    href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-outline-primary rounded-circle me-2"
+                                    href="https://x.com/"><i class="fab fa-x-twitter"></i></a>
+                                <a class="btn btn-square btn-outline-primary rounded-circle me-2"
+                                    href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-square btn-outline-primary rounded-circle"
+                                    href="https://wa.me/919029585033" target="_blank" title="Chat on WhatsApp"><i
+                                        class="fab fa-whatsapp"></i></a>
                             </div>
                         </div>
                     </div>
@@ -2173,95 +2446,105 @@
     <!-- Team End -->
 
 
-       <!-- Subscribe Start -->
-        <div class="container-fluid subscribe py-5">
-            <div class="container text-center py-5">
-                <div class="mx-auto text-center" style="max-width: 900px;">
-                    <h1 class="display-6 mb-4 text-white" style="font-size: 35px;">We provide  high-quality SS Grills,SS Railings, and more.</h1>
-                        <a class="btn btn-primary py-3 px-5" href="https://wa.me/919029585033" target="_blank" title="Get a quote on WhatsApp">Get Quote</a>
-                </div>
+    <!-- Subscribe Start -->
+    <div class="container-fluid subscribe py-5">
+        <div class="container text-center py-5">
+            <div class="mx-auto text-center" style="max-width: 900px;">
+                <h1 class="display-6 mb-4 text-white" style="font-size: 35px;">We provide high-quality SS Grills,SS
+                    Railings, and more.</h1>
+                <a class="btn btn-primary py-3 px-5" href="https://wa.me/919029585033" target="_blank"
+                    title="Get a quote on WhatsApp">Get Quote</a>
             </div>
         </div>
-        <!-- Subscribe End -->
-         <style>
-            .subscribe {
-        background: linear-gradient(rgba(55, 55, 63, 0.7), rgba(55, 55, 63, 0.7)), url(./img/banner-2.jpg);
-    background-attachment: fixed;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-      position: relative;
+    </div>
+    <!-- Subscribe End -->
+    <style>
+        .subscribe {
+            background: linear-gradient(rgba(55, 55, 63, 0.7), rgba(55, 55, 63, 0.7)), url(./img/banner-2.jpg);
+            background-attachment: fixed;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
 
-      overflow: hidden;
-    
-}
+            overflow: hidden;
 
-.subscribe .subscribe-title {
-    position: relative;
-    display: inline-block;
-    text-transform: uppercase;
-    color: var(--bs-white);
-}
-/* Top Curve */
-.subscribe::before {
-  content: '';
-  position: absolute;
-  width: 100%;
-  height: 60px;
-  background: white; /* Should match page background */
-  border-bottom-left-radius: 50% 100%;
-  border-bottom-right-radius: 50% 100%;
-      top: 0px;
-    left: 0px;
-    width: 100%;
-}
+        }
 
-/* Bottom Curve */
-.subscribe::after {
-  content: '';
-  position: absolute;
-  bottom: 0px;
-  left: 0px;
-  width: 100%;
-  height: 60px;
-  background: white; /* Should match page background */
-  border-top-left-radius: 50% 100%;
-  border-top-right-radius: 50% 100%;
-}
-.subscribe .subscribe-title::before {
-    content: "";
-    width: 50px;
-    position: absolute;
-    top: 50%;
-    right: 0;
-    transform: translateY(-50%);
-    margin-right: -50px;
-    border: 1px solid var(--bs-white) !important;
-}
+        .subscribe .subscribe-title {
+            position: relative;
+            display: inline-block;
+            text-transform: uppercase;
+            color: var(--bs-white);
+        }
 
-.subscribe .subscribe-title::after {
-    content: "";
-    width: 50px;
-    position: absolute;
-    top: 50%;
-    left: 0;
-    transform: translateY(-50%);
-    margin-left: -50px;
-    border: 1px solid var(--bs-white) !important;
-}
-/*** Subscribe End ***/
-         </style>
-    
+        /* Top Curve */
+        .subscribe::before {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 60px;
+            background: white;
+            /* Should match page background */
+            border-bottom-left-radius: 50% 100%;
+            border-bottom-right-radius: 50% 100%;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+        }
+
+        /* Bottom Curve */
+        .subscribe::after {
+            content: '';
+            position: absolute;
+            bottom: 0px;
+            left: 0px;
+            width: 100%;
+            height: 60px;
+            background: white;
+            /* Should match page background */
+            border-top-left-radius: 50% 100%;
+            border-top-right-radius: 50% 100%;
+        }
+
+        .subscribe .subscribe-title::before {
+            content: "";
+            width: 50px;
+            position: absolute;
+            top: 50%;
+            right: 0;
+            transform: translateY(-50%);
+            margin-right: -50px;
+            border: 1px solid var(--bs-white) !important;
+        }
+
+        .subscribe .subscribe-title::after {
+            content: "";
+            width: 50px;
+            position: absolute;
+            top: 50%;
+            left: 0;
+            transform: translateY(-50%);
+            margin-left: -50px;
+            border: 1px solid var(--bs-white) !important;
+        }
+
+        /*** Subscribe End ***/
+    </style>
+
 
     <!-- Footer Start -->
-    <div class="container-fluid footer position-relative bg-dark text-white-50 mt-5 py-5 px-4 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container-fluid footer position-relative bg-dark text-white-50 mt-5 py-5 px-4 px-lg-5 wow fadeIn"
+        data-wow-delay="0.1s">
         <div class="row g-5 py-5">
             <div class="col-lg-6 pe-lg-5">
                 <a href="index.html" class="navbar-brand">
                     <h1 class="display-5 text-primary">Ramdev Steel Industries</h1>
                 </a>
-                <p>Ramdev Steel Industries manufactures all kinds of S.S. Handles, Railings, Safety Door Grill, Interior Fabrication, and provides all kinds of PVD & PU coatings for metal surfaces.</p>
-                <p><i class="fa fa-map-marker-alt me-2"></i>Shop No. 180, Sefi House, T.P. Street, 6th Kumhharwada, Mumbai 400004</p>
+                <p>Ramdev Steel Industries manufactures all kinds of S.S. Handles, Railings, Safety Door Grill, Interior
+                    Fabrication, and provides all kinds of PVD & PU coatings for metal surfaces.</p>
+                <p><i class="fa fa-map-marker-alt me-2"></i>Shop No. 180, Sefi House, T.P. Street, 6th Kumhharwada,
+                    Mumbai 400004</p>
                 <p><i class="fa fa-phone-alt me-2"></i>Harishbhai Dewasi - 90295 85033</p>
                 <p><i class="fa fa-phone-alt me-2"></i>Harishbhai Dewasi - 98928 62579</p>
                 <p><i class="fa fa-phone-alt me-2"></i>Navin Dewasi - 88787 28590</p>
@@ -2270,10 +2553,14 @@
                 <p><i class="fa fa-envelope me-2"></i>info@ramdevsteelindustries.com</p>
                 <p><i class="fa fa-envelope me-2"></i>ramdevsteel.harish@gmail.com</p>
                 <div class="d-flex justify-content-start mt-4">
-                    <a class="btn btn-square btn-outline-primary rounded-circle me-2" href="https://x.com/"><i class="fab fa-x-twitter"></i></a>
-                    <a class="btn btn-square btn-outline-primary rounded-circle me-2" href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-square btn-outline-primary rounded-circle me-2" href="https://in.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                    <a class="btn btn-square btn-outline-primary rounded-circle me-2" href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-square btn-outline-primary rounded-circle me-2" href="https://x.com/"><i
+                            class="fab fa-x-twitter"></i></a>
+                    <a class="btn btn-square btn-outline-primary rounded-circle me-2"
+                        href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-square btn-outline-primary rounded-circle me-2" href="https://in.linkedin.com/"><i
+                            class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-square btn-outline-primary rounded-circle me-2"
+                        href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
                 </div>
             </div>
             <div class="col-lg-6 ps-lg-5">
@@ -2294,20 +2581,20 @@
                         <a class="btn btn-link" href="dining-table.html">Dining Table</a>
                         <a class="btn btn-link" href="wall-art.html">Wall Art & Jhulas </a>
                     </div>
-                     <div class="col-sm-12">
+                    <div class="col-sm-12">
                         <h4 class="text-light mb-4">Get A Quote From Us And Get 10% Off</h4>
-                     <form action="https://api.web3forms.com/submit" method="POST">
-                        <input type="hidden" name="access_key" value="f0b1004f-2bd5-4924-b688-ff222c0cffb2">
-                        <input type="hidden" name="subject" value="New Quote Request Subscription">
-                        <div class="w-100">
-                            <div class="input-group">
-                                <input type="email" name="email" class="form-control border-0 bg-secondary" 
-                                    style="padding: 20px 30px; color: white;" 
-                                    placeholder="Your Email Address" required>
-                                <button type="submit" class="btn btn-primary px-4">Subscribe</button>
+                        <form action="https://api.web3forms.com/submit" method="POST">
+                            <input type="hidden" name="access_key" value="f0b1004f-2bd5-4924-b688-ff222c0cffb2">
+                            <input type="hidden" name="subject" value="New Quote Request Subscription">
+                            <div class="w-100">
+                                <div class="input-group">
+                                    <input type="email" name="email" class="form-control border-0 bg-secondary"
+                                        style="padding: 20px 30px; color: white;" placeholder="Your Email Address"
+                                        required>
+                                    <button type="submit" class="btn btn-primary px-4">Subscribe</button>
+                                </div>
                             </div>
-                        </div>
-                    </form>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -2320,7 +2607,8 @@
     <div class="container-fluid bg-dark text-white border-top border-secondary px-0">
         <div class="d-flex flex-column flex-md-row justify-content-between">
             <div class="py-4 px-5 text-center text-md-start">
-                <p class="mb-0">&copy; <a class="text-primary" href="#">2025</a> All right reserved Ramdev Steel Industries</p>
+                <p class="mb-0">&copy; <a class="text-primary" href="#">2025</a> All right reserved Ramdev Steel
+                    Industries</p>
             </div>
             <div class="py-4 px-5 bg-secondary footer-shape position-relative text-center text-md-end">
                 <p class="mb-0">Designed by <span class="text-primary fw-bold">Manmohan Printers</span></p>
@@ -2331,16 +2619,14 @@
 
 
     <!-- Back to Top -->
-<a href="javascript:void(0);"
-   onclick="window.open('https://wa.me/919029585033', '_blank')"
-   class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"
-   style="color: white; background: green; border: 2px solid green;"
-   title="Chat on WhatsApp">
-   <i class="bi bi-whatsapp"></i>
-</a>
+    <a href="javascript:void(0);" onclick="window.open('https://wa.me/919029585033', '_blank')"
+        class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"
+        style="color: white; background: green; border: 2px solid green;" title="Chat on WhatsApp">
+        <i class="bi bi-whatsapp"></i>
+    </a>
 
 
-<!-- End back to top -->
+    <!-- End back to top -->
 
 
     <!-- JavaScript Libraries -->
