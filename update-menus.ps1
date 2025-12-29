@@ -49,7 +49,7 @@ foreach ($file in $htmlFiles) {
                     <a href="#" class="nav-link dropdown-toggle{0}" data-bs-toggle="dropdown" data-bs-auto-close="outside">Products</a>
                     <div class="dropdown-menu simple-products-menu shadow-sm border-0 m-0">
                         <a href="ramdev-railings.html" class="dropdown-item">Stainless Steel Railings</a>
-                        <a href="ramdev-grills.html" class="dropdown-item">Stainless Steel Grills</a>
+                        <a href="ramdev-grills.html" class="dropdown-item">Stainless Steel Partition</a>
                         <a href="ramdev-pvd-coating.html" class="dropdown-item">PVD Coating Services</a>
                         <a href="ramdev-doors.html" class="dropdown-item">Stainless Steel Doors</a>
                         <a href="ramdev-gates.html" class="dropdown-item">Stainless Steel Gates</a>

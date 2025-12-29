@@ -54,7 +54,7 @@ $template = @'
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Products</a>
                     <div class="dropdown-menu rounded-0 shadow-sm border-0 m-0">
-                        <a href="ramdev-grills.html" class="dropdown-item">Stainless Steel Grills</a>
+                        <a href="ramdev-grills.html" class="dropdown-item">Stainless Steel Partition</a>
                         <a href="ramdev-handles.html" class="dropdown-item">Stainless Steel Handles</a>
                         <a href="ramdev-railings.html" class="dropdown-item">Stainless Steel Railings</a>
                         <a href="ramdev-gates.html" class="dropdown-item">Stainless Steel Gates</a>
@@ -150,7 +150,7 @@ $template = @'
                     </div>
                     <div class="col-sm-6">
                         <h4 class="text-light mb-4">Products</h4>
-                        <a class="btn btn-link" href="ramdev-grills.html">Stainless Steel Grills</a>
+                        <a class="btn btn-link" href="ramdev-grills.html">Stainless Steel Partition</a>
                         <a class="btn btn-link" href="ramdev-handles.html">Stainless Steel Handles</a>
                         <a class="btn btn-link" href="ramdev-railings.html">Stainless Steel Railings</a>
                         <a class="btn btn-link" href="ramdev-gates.html">Stainless Steel Gates</a>
